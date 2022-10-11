@@ -1,0 +1,13 @@
+.logo {
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  grid-template-rows: 1fr 1fr; 
+  grid-template-areas:
+    "pic status"
+    "pic name";
+  column-gap: 8px;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

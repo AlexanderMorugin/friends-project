@@ -1,0 +1,8 @@
+.logo__pic {
+  grid-area: pic;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 26px;
+  height: 26px;
+}
