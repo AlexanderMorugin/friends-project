@@ -1,0 +1,10 @@
+.newsletter__span-heading{
+    max-width: 490px;
+    margin-bottom: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.03;
+    color: #000000;
+}

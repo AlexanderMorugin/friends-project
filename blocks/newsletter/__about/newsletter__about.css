@@ -1,0 +1,11 @@
+.newsletter__about{
+    max-width: 503px;
+    padding: 43px 0;
+    margin-right: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #000000;
+}

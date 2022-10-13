@@ -23,3 +23,11 @@
 
 @import url(../blocks/our-values/our-values.css);
 @import url(../blocks/counter/counter.css);
+
+@import url(../blocks/newsletter/newsletter.css);
+@import url(../blocks/newsletter/__about/newsletter__about.css);
+@import url(../blocks/newsletter/__paragraph-heading/newsletter__paragraph-heading.css);
+@import url(../blocks/newsletter/__span-heading/newsletter__span-heading.css);
+@import url(../blocks/newsletter/__button-subscribe/newsletter__button-subscribe.css);
+@import url(../blocks/newsletter/__form/newsletter__form.css);
+@import url(../blocks/newsletter/__input/newsletter__input.css);

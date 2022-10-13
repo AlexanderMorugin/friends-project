@@ -1,0 +1,10 @@
+.newsletter{
+    background-color: #F8F8F8;
+    /*max-width: 100%;
+    padding: 43px 125px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+
+}
