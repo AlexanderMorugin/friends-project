@@ -12,10 +12,13 @@
 </head>
 <body class="page">
   <header class="header">
-    <div class="logo">
-      <img class="logo__pic" src="./images/logo-header.svg" alt="Логотип фонда">
-      <p class="logo__status">Фонд</p>
-      <p class="logo__name">Друзья</p>
+    <div class="header__logo-box">
+      <button class="header__button-menu" type="button" aria-label="Открыть меню навигации"></button>
+      <a class="logo" href="#">
+        <img class="logo__pic" src="./images/logo-header.svg" alt="Логотип фонда">
+        <p class="logo__status">Фонд</p>
+        <p class="logo__name">Друзья</p>
+      </a>
     </div>
     <ul class="nav">
       <li class="nav__box">
@@ -42,12 +45,12 @@
     </ul>
     <ul class="header__social">
       <li>
-        <a href="#">
+        <a class="header__social-link" href="#">
           <img class="header__social-icon" src="./images/icon-vk-white.svg" alt="Перейти в соцсеть ВКонтакте">
         </a>
       </li>
       <li>
-        <a href="#">
+        <a class="header__social-link" href="#">
           <img class="header__social-icon" src="./images/icon-telegram-white.svg" alt="Перейти в мессенджер Telegram">
         </a>
       </li>
@@ -60,10 +63,57 @@
         <a class="header__lang-link" href="#">En</a>
       </li>      
     </ul>
-    <button class="header__button" type="button" aria-label="Помочь фонду">Помочь фонду</button>
-
-
+    <button class="header__button-donate" type="button" aria-label="Помочь фонду">Помочь фонду</button>
   </header>
+
+<!-- Модальное окно "Меню навигации в header" -->
+<div class="popup header_menu_popup">
+  <div class="popup__container">
+    <ul class="popup__links">
+      <li>
+        <a class="popup__link" href="#">Фонд</a>
+      </li>
+      <li>
+        <a class="popup__link" href="#">Программы</a>
+      </li>
+      <li>
+        <a class="popup__link" href="#">Блог</a>
+      </li>
+      <li>
+        <a class="popup__link" href="#">Для бизнеса</a>
+      </li>
+      <li>
+        <a class="popup__link" href="#">Для НКО</a>
+      </li>
+      <li>
+        <a class="popup__link" href="#">Контакты</a>
+      </li>
+    </ul> 
+    <div class="popup__lang-social">
+      <ul class="popup__lang">
+        <li>
+          <a class="popup__lang-link popup__lang-link_active" href="#">Ру</a>
+        </li>
+        <li>
+          <a class="popup__lang-link" href="#">En</a>
+        </li>      
+      </ul>
+      <ul class="popup__social">
+        <li>
+          <a href="#">
+            <img class="popup__social-icon" src="./images/icon-vk-black.svg" alt="Перейти в соцсеть ВКонтакте">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img class="popup__social-icon" src="./images/icon-telegram-black.svg" alt="Перейти в мессенджер Telegram">
+          </a>
+        </li>
+      </ul>
+    </div>   
+  </div>  
+  <button type="button" class="popup__button-close" aria-label="Закрыть диалоговое окно"></button>
+</div>
 
 </body>
 </html>  
