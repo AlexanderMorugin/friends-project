@@ -1,0 +1,19 @@
+.footer__reserved {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__reserved {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .footer__reserved {
+    font-size: 10px;
+  }
+}

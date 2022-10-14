@@ -1,4 +1,4 @@
-.header__social-icon {
+.social__icon {
   width: 24px;
   box-sizing: border-box;
   margin: 0;
@@ -6,13 +6,13 @@
   transition: opacity .2s ease-in-out;
 }
 
-.header__social-icon:hover {
+.social__icon:hover {
   opacity: .4;
   cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {
-  .header__social-icon {
+  .social__icon {
     width: 18px;
   }
 }

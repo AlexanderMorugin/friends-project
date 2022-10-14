@@ -5,9 +5,6 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__button-menu/header__button-menu.css);
-@import url(../blocks/header/__social/header__social.css);
-@import url(../blocks/header/__social-link/header__social-link.css);
-@import url(../blocks/header/__social-icon/header__social-icon.css);
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
@@ -16,12 +13,21 @@
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__pic/logo__pic.css);
-@import url(../blocks/logo/__status/logo__status.css);
-@import url(../blocks/logo/__name/logo__name.css);
+@import url(../blocks/logo/__text/logo__text.css);
+@import url(../blocks/logo/__span/logo__span.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+@import url(../blocks/logo/__pic/_footer/logo__pic_footer.css);
 
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/__box/nav__box.css);
 @import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__link/_footer/nav__link_footer.css);
+@import url(../blocks/nav/_footer/nav_footer.css);
+@import url(../blocks/nav/__donate/nav__donate.css);
+
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__icon/social__icon.css);
+@import url(../blocks/social/_footer/social_footer.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
@@ -35,3 +41,16 @@
 @import url(../blocks/popup/__lang-link/_active/popup__lang-link_active.css);
 @import url(../blocks/popup/__social/popup__social.css);
 @import url(../blocks/popup/__social-icon/popup__social-icon.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__box-nav/footer__box-nav.css);
+@import url(../blocks/footer/__box-contact/footer__box-contact.css);
+@import url(../blocks/footer/__pack/footer__pack.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__text/_value/footer__text_value.css);
+@import url(../blocks/footer/__box-rights/footer__box-rights.css);
+@import url(../blocks/footer/__copy/footer__copy.css);
+@import url(../blocks/footer/__age/footer__age.css);
+@import url(../blocks/footer/__reserved/footer__reserved.css);
+@import url(../blocks/footer/__agreement/footer__agreement.css);
+@import url(../blocks/footer/__logo-duns/footer__logo-duns.css);
