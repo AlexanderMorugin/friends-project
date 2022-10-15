@@ -1,0 +1,8 @@
+.ellipse {
+  max-width: 416px;
+  height: 163px;
+  border-radius: 136px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
