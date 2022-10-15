@@ -1,0 +1,5 @@
+.program {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 490px;
+}
