@@ -2,4 +2,11 @@
   margin: 90px 0 0 50px;
   max-width: 465px;
   height: fit-content;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .program__description {
+    margin: 32px 0 0 24px;
+  }
 }

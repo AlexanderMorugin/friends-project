@@ -6,4 +6,13 @@
   color: #fff;
   letter-spacing: 0.24em;
   margin-left: 12px;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 425px) {
+  .program-logo__caption {
+    font-size: 6px;
+    line-height: 10px;
+    margin-left: 8px;
+  }
 }

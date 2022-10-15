@@ -5,3 +5,10 @@
   color: #fff;
   margin-top: 16px;
 }
+
+@media screen and (max-width: 425px) {
+  .program__title {
+    font-size: 30px;
+    line-height: 29px;
+  }
+}

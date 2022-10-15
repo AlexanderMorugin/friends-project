@@ -1,3 +1,9 @@
 .section-title_margin {
   margin-bottom: 56px;
 }
+
+@media screen and (max-width: 425px) {
+  .section-title_margin {
+    margin-bottom: 24px;
+  }
+}
