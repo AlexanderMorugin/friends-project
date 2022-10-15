@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,12 @@
   <meta name="keywords" content="html, css, javascript">
   <title>Фонд Друзья</title>
   <link rel="stylesheet" type="text/css" href="./pages/index.css">
-  <script type="text/javascript" src="./pages/index.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./pages/index.js" defer></script>
 </head>
+
 <body class="page">
-  <header class="header">
+  <!-- <header class="header">
     <div class="logo">
       <img class="logo__pic" src="./images/logo-header.svg" alt="Логотип фонда">
       <p class="logo__status">Фонд</p>
@@ -58,74 +61,108 @@
       </li>
       <li>
         <a class="header__lang-link" href="#">En</a>
-      </li>      
+      </li>
     </ul>
     <button class="header__button" type="button" aria-label="Помочь фонду">Помочь фонду</button>
 
 
-  </header>
-
-  <section class="our-values">
-    <div class="ek-title">
-      <h1>Наши ценности</h1>
-    </div>
-    <div class="our-values__container">
+  </header> -->
+  <main>
+    <section class="our-programs">
+      <h2 class="section-title">Наши программы</h2>
+      <div class="program">
+        <div class="program__description">
+          <div class="program__logo"><img src="./images/ProCharity.svg" alt="Логотип программы" class="program__logo-image">Программа</div>
+          <h3 class="program__title">ProCharity</h3>
+          <p class="program__text">Скорая интеллектуальная помощь для благотворительных фондов</p>
+          <button class="program__button"></button>
+        </div>
+        <img src="./images/Notebook.png" alt="Изображение" class="program__image">
+      </div>
+      <div class="program">
+        <div class="program__description">
+          <div class="program__logo"><img src="./images/Filantrop.svg" alt="Логотип программы" class="program__logo-image">Программа</div>
+          <h3 class="program__title">Московская школа профессиональной филантропии</h3>
+          <p class="program__text">Повышение квалификации и профессионализма сотрудников НКО</p>
+          <button class="program__button"></button>
+        </div>
+        <img src="./images/MoscowSchool.png" alt="Изображение" class="program__image">
+      </div>
+      <div class="program">
+        <div class="program__description">
+          <div class="program__logo"><img src="./images/Prof.svg" alt="Логотип программы" class="program__logo-image">Программа</div>
+          <h3 class="program__title">Команда профессионалов</h3>
+          <p class="program__text">Стратегическое развитие и менторская поддержка
+            социальных проектов и НКО</p>
+          <button class="program__button"></button>
+        </div>
+        <img src="./images/Urgant.png" alt="Изображение" class="program__image">
+      </div>
+    </section>
+    <!-- <section class="our-values">
+      <div class="ek-title">
+        <h1>Наши ценности</h1>
+      </div>
+      <div class="our-values__container">
+        <div class="container__row">
+          <div class="item">
+            <img src="./images/Rectangle1.svg" alt="">
+            <p class="sub-image">
+              Образование<br> и профессионализм
+            </p>
+          </div>
+          <div class="item">
+            <img src="./images/Rectangle2.svg" alt="">
+            <p class="sub-image">
+              Планирование<br> и устойчивость
+            </p>
+          </div>
+          <div class="item">
+            <img src="./images/Rectangle3.svg" alt="">
+            <p class="sub-image">
+              Системный подход<br> к решениям
+            </p>
+          </div>
+          <div class="item">
+            <img src="./images/Rectangle4.svg" alt="">
+            <p class="sub-image">
+              Объединение<br> и партнерство
+            </p>
+          </div>
+          <div class="item">
+            <img src="./images/Rectangle5.svg" alt="">
+            <p class="sub-image">
+              Измеримый эффект
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="counter">
       <div class="container__row">
-        <div class="item">
-          <img src="./images/Rectangle1.svg" alt="">
-          <p class="sub-image">
-            Образование<br> и профессионализм
-          </p>
+        <div class="counter-item">
+          <h1 class="counter-title">2 500</h1>
+          <p class="counter-text">НКО стали участниками<br>
+            наших программ</p>
         </div>
-        <div class="item">
-          <img src="./images/Rectangle2.svg" alt="">
-          <p class="sub-image">
-            Планирование<br> и устойчивость
-          </p>
+        <div class="counter-item">
+          <h1 class="counter-title">150</h1>
+          <p class="counter-text">Профессионалов<br> благотворительности получили <br>дипломы</p>
         </div>
-        <div class="item">
-          <img src="./images/Rectangle3.svg" alt="">
-          <p class="sub-image">
-            Системный подход<br> к решениям
-          </p>
+        <div class="counter-item">
+          <h1 class="counter-title">4 000</h1>
+          <p class="counter-text">Волонтер был привлечен через <br>нас для помощи различным НКО</p>
         </div>
-        <div class="item">
-          <img src="./images/Rectangle4.svg" alt="">
-          <p class="sub-image">
-            Объединение<br> и партнерство
-          </p>
-        </div>
-        <div class="item">
-          <img src="./images/Rectangle5.svg" alt="">
-          <p class="sub-image">
-            Измеримый эффект
-          </p>
+        <div class="counter-item">
+          <h1 class="counter-title">250</h1>
+          <p class="counter-text">Экспертов преподают в наших<br> программах</p>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="counter">
-    <div class="container__row">
-      <div class="counter-item">
-        <h1 class="counter-title">2 500</h1>
-        <p class="counter-text">НКО стали участниками<br>
-          наших программ</p>
-      </div>
-      <div class="counter-item">
-        <h1 class="counter-title">150</h1>
-        <p class="counter-text">Профессионалов<br> благотворительности получили <br>дипломы</p>
-      </div>
-      <div class="counter-item">
-        <h1 class="counter-title">4 000</h1>
-        <p class="counter-text">Волонтер был привлечен через <br>нас для помощи различным НКО</p>
-      </div>
-      <div class="counter-item">
-        <h1 class="counter-title">250</h1>
-        <p class="counter-text">Экспертов преподают в наших<br> программах</p>
-      </div>
-    </div>
-  </section>
+    </section> -->
+
+  </main>
+
 
 </body>
-</html>
 
+</html>
