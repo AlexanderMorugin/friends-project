@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,14 @@
   <link rel="stylesheet" type="text/css" href="./pages/index.css">
   <script type="text/javascript" src="./pages/index.js" defer></script>
 </head>
+
 <body class="page">
   <header class="header">
     <div class="header__logo-box">
       <button class="header__button-menu" type="button" aria-label="Открыть меню навигации"></button>
       <a class="logo" href="#">
         <div class="logo__pic"></div>
-        <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p> 
+        <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>
       </a>
     </div>
     <ul class="nav">
@@ -60,24 +62,18 @@
       </li>
       <li>
         <a class="header__lang-link" href="#">En</a>
-      </li>      
+      </li>
     </ul>
     <button class="header__button-donate" type="button" aria-label="Помочь фонду">Помочь фонду</button>
   </header>
 
 
   <footer class="footer">
-
-
     <div class="footer__box-nav">
-
-
       <a class="logo logo_footer" href="#">
         <div class="logo__pic logo__pic_footer"></div>
-        <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>      
+        <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>
       </a>
-
-
       <ul class="nav nav_footer">
         <li class="nav__box">
           <a class="nav__link nav__link_footer" href="#">Фонд</a>
@@ -105,9 +101,6 @@
         </li>
       </ul>
     </div>
-
-
-
     <div class="footer__box-contact">
       <div class="footer__pack">
         <p class="footer__text">Написать нам:</p>
@@ -131,155 +124,152 @@
             </a>
           </li>
         </ul>
-      </div>      
+      </div>
     </div>
-
-
-
     <div class="footer__box-rights">
       <div class="footer__copy">
         <p class="footer__age">18+</p>
         <p class="footer__reserved">&copy; 2022 Фонд «Друзья» Все права защищены.</p>
-      </div>      
+      </div>
       <p class="footer__agreement">
-        Исключительные права на&nbsp;фото- и&nbsp;иные материалы принадлежат авторам. 
+        Исключительные права на&nbsp;фото- и&nbsp;иные материалы принадлежат авторам.
         Любое размещение материалов на&nbsp;сторонних ресурсах необходимо согласовывать с&nbsp;правообладателями.
       </p>
       <img class="footer__logo-duns" src="./images/icon-duns.png" alt="Логотип Duns">
     </div>
-
-  
-    
-
-
   </footer>
 
 
-<!-- Mobile - Модальное окно "Меню 1 ур" -->
-<div class="popup header_menu_mobile">
-  <div class="popup__container">
-    <ul class="popup__links">
-      <li>
-        <a class="popup__link fund" href="#">Фонд</a>
-      </li>
-      <li>
-        <a class="popup__link" href="#">Программы</a>
-      </li>
-      <li>
-        <a class="popup__link" href="#">Блог</a>
-      </li>
-      <li>
-        <a class="popup__link" href="#">Для бизнеса</a>
-      </li>
-      <li>
-        <a class="popup__link" href="#">Для НКО</a>
-      </li>
-      <li>
-        <a class="popup__link" href="#">Контакты</a>
-      </li>
-    </ul> 
-    <div class="popup__lang-social">
-      <ul class="popup__lang">
+  <!-- Mobile - Модальное окно "Меню 1 ур" -->
+  <div class="popup header_menu_mobile">
+    <div class="popup__container">
+      <ul class="popup__links">
         <li>
-          <a class="popup__lang-link popup__lang-link_active" href="#">Ру</a>
+          <a class="popup__link fund" href="#">Фонд</a>
         </li>
         <li>
-          <a class="popup__lang-link" href="#">En</a>
-        </li>      
-      </ul>
-      <ul class="popup__social">
+          <a class="popup__link" href="#">Программы</a>
+        </li>
         <li>
-          <a href="#">
-            <img class="popup__social-icon" src="./images/icon-vk-black.svg" alt="Перейти в соцсеть ВКонтакте">
+          <a class="popup__link" href="#">Блог</a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Для бизнеса</a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Для НКО</a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Контакты</a>
+        </li>
+      </ul>
+      <div class="popup__lang-social">
+        <ul class="popup__lang">
+          <li>
+            <a class="popup__lang-link popup__lang-link_active" href="#">Ру</a>
+          </li>
+          <li>
+            <a class="popup__lang-link" href="#">En</a>
+          </li>
+        </ul>
+        <ul class="popup__social">
+          <li>
+            <a href="#">
+              <img class="popup__social-icon" src="./images/icon-vk-black.svg" alt="Перейти в соцсеть ВКонтакте">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="popup__social-icon" src="./images/icon-telegram-black.svg"
+                alt="Перейти в мессенджер Telegram">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button type="button" class="popup__button-close" aria-label="Закрыть меню"></button>
+  </div>
+
+  <!-- Mobile - Модальное окно "Фонд 2.1 ур" -->
+  <div class="popup header_fund_mobile">
+    <div class="popup__container">
+      <ul class="popup__links">
+        <li>
+          <a class="popup__link" href="#">О фонде «Друзья»
+            <p class="popup__link-description">История фонда, миссия</p>
           </a>
         </li>
         <li>
-          <a href="#">
-            <img class="popup__social-icon" src="./images/icon-telegram-black.svg" alt="Перейти в мессенджер Telegram">
+          <a class="popup__link" href="#">Структура фонда
+            <p class="popup__link-description">Экспертный совет, Попечительский совет, Правление, Команда</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Документы
+            <p class="popup__link-description">Оферта, Реквизиты, Устав Договор пожертвования</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Отчёты
+            <p class="popup__link-description">Айдит, Годовой отчёт</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">FAQ
+            <p class="popup__link-description">Ответы на часто задаваемые вопросы</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">СМИ о нас
+            <p class="popup__link-description">Что пишут о нас в сети интернета</p>
           </a>
         </li>
       </ul>
-    </div>   
-  </div>  
-  <button type="button" class="popup__button-close" aria-label="Закрыть меню"></button>
-</div>
+    </div>
+    <button type="button" class="popup__button-close popup__button-back"
+      aria-label="Вернуться в предыдущее меню"></button>
+  </div>
 
-<!-- Mobile - Модальное окно "Фонд 2.1 ур" -->
-<div class="popup header_fund_mobile">
-  <div class="popup__container">
-    <ul class="popup__links">
-      <li>
-        <a class="popup__link" href="#">О фонде «Друзья»
-          <p class="popup__link-description">История фонда, миссия</p>
-        </a>
-      </li>
-      <li>
-        <a class="popup__link" href="#">Структура фонда
-          <p class="popup__link-description">Экспертный совет, Попечительский совет, Правление, Команда</p>
-        </a>
-      </li>
-      <li>
-        <a class="popup__link" href="#">Документы
-          <p class="popup__link-description">Оферта, Реквизиты, Устав Договор пожертвования</p>
-        </a>
-      </li>
-      <li>
-        <a class="popup__link" href="#">Отчёты
-          <p class="popup__link-description">Айдит, Годовой отчёт</p>
-        </a>
-      </li>
-      <li>
-        <a class="popup__link" href="#">FAQ
-          <p class="popup__link-description">Ответы на часто задаваемые вопросы</p>
-        </a>
-      </li>
-      <li>
-        <a class="popup__link" href="#">СМИ о нас
-          <p class="popup__link-description">Что пишут о нас в сети интернета</p>
-        </a>
-      </li>
-    </ul> 
-  </div>  
-  <button type="button" class="popup__button-close popup__button-back" aria-label="Вернуться в предыдущее меню"></button>
-</div>
-
-<!-- Desktop - Модальное окно "Меню Фонд" -->
-<div class="popup popup_desktop header_fund_desktop">
-  <div class="popup__container">
-    <ul class="popup__links popup__links_desktop">
-      <li class="popup__link-box">
-        <a class="popup__link popup__link_desktop" href="#">О фонде «Друзья»
-          <p class="popup__link-description popup__link-description_desktop">История фонда, миссия</p>
-        </a>
-      </li>
-      <li class="popup__link-box">
-        <a class="popup__link popup__link_desktop" href="#">Структура фонда
-          <p class="popup__link-description popup__link-description_desktop">Экспертный совет, Попечительский совет, Правление, Команда</p>
-        </a>
-      </li>
-      <li class="popup__link-box">
-        <a class="popup__link popup__link_desktop" href="#">Документы
-          <p class="popup__link-description popup__link-description_desktop">Оферта, Реквизиты, Устав Договор пожертвования</p>
-        </a>
-      </li>
-      <li class="popup__link-box">
-        <a class="popup__link popup__link_desktop" href="#">Отчёты
-          <p class="popup__link-description popup__link-description_desktop">Айдит, Годовой отчёт</p>
-        </a>
-      </li>
-      <li class="popup__link-box">
-        <a class="popup__link popup__link_desktop" href="#">FAQ
-          <p class="popup__link-description popup__link-description_desktop">Ответы на часто задаваемые вопросы</p>
-        </a>
-      </li>
-      <li class="popup__link-box">
-        <a class="popup__link popup__link_desktop" href="#">СМИ о нас
-          <p class="popup__link-description popup__link-description_desktop">Что пишут о нас в сети интернета</p>
-        </a>
-      </li>
-    </ul> 
-  </div>  
-</div>
+  <!-- Desktop - Модальное окно "Меню Фонд" -->
+  <div class="popup popup_desktop header_fund_desktop">
+    <div class="popup__container">
+      <ul class="popup__links popup__links_desktop">
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">О фонде «Друзья»
+            <p class="popup__link-description popup__link-description_desktop">История фонда, миссия</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">Структура фонда
+            <p class="popup__link-description popup__link-description_desktop">Экспертный совет, Попечительский совет,
+              Правление, Команда</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">Документы
+            <p class="popup__link-description popup__link-description_desktop">Оферта, Реквизиты, Устав Договор
+              пожертвования</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">Отчёты
+            <p class="popup__link-description popup__link-description_desktop">Айдит, Годовой отчёт</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">FAQ
+            <p class="popup__link-description popup__link-description_desktop">Ответы на часто задаваемые вопросы</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">СМИ о нас
+            <p class="popup__link-description popup__link-description_desktop">Что пишут о нас в сети интернета</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 
 </body>
-</html>  
+
+</html>
