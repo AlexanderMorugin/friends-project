@@ -1,12 +1,18 @@
 //@ts-check
 
 // Переменные
-// Модальное окно "Меню навигации в header"
-
+// Mobile - Модальное окно "Меню 1 ур"
 const buttonHeaderMenu = document.querySelector('.header__button-menu');
 const popup = document.querySelector('.popup');
-const headerMenuPopup = document.querySelector('.header_menu_popup');
+const headerMenuMobile = document.querySelector('.header_menu_mobile');
 const buttonHeaderMenuClose = document.querySelector('.popup__button-close');
+
+// Mobile - Модальное окно "Фонд 2.1 ур"
+const linkFund = document.querySelector('.fund');
+const headerFundMobile = document.querySelector('.header_fund_mobile');
+const buttonBackHeaderMenu = document.querySelector('.popup__button-back');
+
+// Desktop - Модальное окно "Меню Фонд"
 
 
 // Функции Универсальные
@@ -21,14 +27,20 @@ function closePopup(popup) {
 
 
 // Слушатели событий
-// Модальное окно "Меню навигации в header"
-
+// Mobile - Модальное окно "Меню 1 ур"
 buttonHeaderMenu.addEventListener('click', () => {
-  openPopup(headerMenuPopup);
+  openPopup(headerMenuMobile);
 });
-
 
 buttonHeaderMenuClose.addEventListener('click', () => {
-  closePopup(headerMenuPopup);
+  closePopup(headerMenuMobile);
 });
 
+// Mobile - Модальное окно "Фонд 2.1 ур"
+linkFund.addEventListener('click', () => {
+  openPopup(headerFundMobile);
+});
+
+buttonBackHeaderMenu.addEventListener('click', () => {
+  closePopup(headerFundMobile);
+});

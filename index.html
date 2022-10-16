@@ -21,10 +21,10 @@
     </div>
     <ul class="nav">
       <li class="nav__box">
-        <a class="nav__link" href="#">Фонд</a>
+        <a id="fund" class="nav__link" href="#">Фонд</a>
       </li>
       <li class="nav__box">
-        <a class="nav__link" href="#">Программы</a>
+        <a id="programs" class="nav__link" href="#">Программы</a>
       </li>
       <li class="nav__box">
         <a class="nav__link" href="#">Для НКО</a>
@@ -155,12 +155,12 @@
   </footer>
 
 
-<!-- Модальное окно "Меню навигации в header" -->
-<div class="popup header_menu_popup">
+<!-- Mobile - Модальное окно "Меню 1 ур" -->
+<div class="popup header_menu_mobile">
   <div class="popup__container">
     <ul class="popup__links">
       <li>
-        <a class="popup__link" href="#">Фонд</a>
+        <a class="popup__link fund" href="#">Фонд</a>
       </li>
       <li>
         <a class="popup__link" href="#">Программы</a>
@@ -201,7 +201,84 @@
       </ul>
     </div>   
   </div>  
-  <button type="button" class="popup__button-close" aria-label="Закрыть диалоговое окно"></button>
+  <button type="button" class="popup__button-close" aria-label="Закрыть меню"></button>
+</div>
+
+<!-- Mobile - Модальное окно "Фонд 2.1 ур" -->
+<div class="popup header_fund_mobile">
+  <div class="popup__container">
+    <ul class="popup__links">
+      <li>
+        <a class="popup__link" href="#">О фонде «Друзья»
+          <p class="popup__link-description">История фонда, миссия</p>
+        </a>
+      </li>
+      <li>
+        <a class="popup__link" href="#">Структура фонда
+          <p class="popup__link-description">Экспертный совет, Попечительский совет, Правление, Команда</p>
+        </a>
+      </li>
+      <li>
+        <a class="popup__link" href="#">Документы
+          <p class="popup__link-description">Оферта, Реквизиты, Устав Договор пожертвования</p>
+        </a>
+      </li>
+      <li>
+        <a class="popup__link" href="#">Отчёты
+          <p class="popup__link-description">Айдит, Годовой отчёт</p>
+        </a>
+      </li>
+      <li>
+        <a class="popup__link" href="#">FAQ
+          <p class="popup__link-description">Ответы на часто задаваемые вопросы</p>
+        </a>
+      </li>
+      <li>
+        <a class="popup__link" href="#">СМИ о нас
+          <p class="popup__link-description">Что пишут о нас в сети интернета</p>
+        </a>
+      </li>
+    </ul> 
+  </div>  
+  <button type="button" class="popup__button-close popup__button-back" aria-label="Вернуться в предыдущее меню"></button>
+</div>
+
+<!-- Desktop - Модальное окно "Меню Фонд" -->
+<div class="popup popup_desktop header_fund_desktop">
+  <div class="popup__container">
+    <ul class="popup__links popup__links_desktop">
+      <li class="popup__link-box">
+        <a class="popup__link popup__link_desktop" href="#">О фонде «Друзья»
+          <p class="popup__link-description popup__link-description_desktop">История фонда, миссия</p>
+        </a>
+      </li>
+      <li class="popup__link-box">
+        <a class="popup__link popup__link_desktop" href="#">Структура фонда
+          <p class="popup__link-description popup__link-description_desktop">Экспертный совет, Попечительский совет, Правление, Команда</p>
+        </a>
+      </li>
+      <li class="popup__link-box">
+        <a class="popup__link popup__link_desktop" href="#">Документы
+          <p class="popup__link-description popup__link-description_desktop">Оферта, Реквизиты, Устав Договор пожертвования</p>
+        </a>
+      </li>
+      <li class="popup__link-box">
+        <a class="popup__link popup__link_desktop" href="#">Отчёты
+          <p class="popup__link-description popup__link-description_desktop">Айдит, Годовой отчёт</p>
+        </a>
+      </li>
+      <li class="popup__link-box">
+        <a class="popup__link popup__link_desktop" href="#">FAQ
+          <p class="popup__link-description popup__link-description_desktop">Ответы на часто задаваемые вопросы</p>
+        </a>
+      </li>
+      <li class="popup__link-box">
+        <a class="popup__link popup__link_desktop" href="#">СМИ о нас
+          <p class="popup__link-description popup__link-description_desktop">Что пишут о нас в сети интернета</p>
+        </a>
+      </li>
+    </ul> 
+  </div>  
 </div>
 
 </body>

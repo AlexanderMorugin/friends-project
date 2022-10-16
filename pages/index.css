@@ -34,13 +34,23 @@
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__links/popup__links.css);
 @import url(../blocks/popup/__link/popup__link.css);
+@import url(../blocks/popup/__link-description/popup__link-description.css);
 @import url(../blocks/popup/__button-close/popup__button-close.css);
+@import url(../blocks/popup/__button-back/popup__button-back.css);
 @import url(../blocks/popup/__lang-social/popup__lang-social.css);
 @import url(../blocks/popup/__lang/popup__lang.css);
 @import url(../blocks/popup/__lang-link/popup__lang-link.css);
 @import url(../blocks/popup/__lang-link/_active/popup__lang-link_active.css);
 @import url(../blocks/popup/__social/popup__social.css);
 @import url(../blocks/popup/__social-icon/popup__social-icon.css);
+
+@import url(../blocks/popup/_desktop/popup_desktop.css);
+@import url(../blocks/popup/__links/_desktop/popup__links_desktop.css);
+@import url(../blocks/popup/__link/_desktop/popup__link_desktop.css);
+@import url(../blocks/popup/__link-description/_desktop/popup__link-description_desktop.css);
+@import url(../blocks/popup/__link-box/popup__link-box.css);
+
+
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__box-nav/footer__box-nav.css);
