@@ -1,8 +1,16 @@
 .ellipse {
-  max-width: 416px;
+  width: 416px;
   height: 163px;
   border-radius: 136px;
-  display: flex;
-  overflow: hidden;
-  align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .ellipse {
+    width: 271px;
+    height: 102px;
+    border-radius: 136px;
+    position: relative;
+  }
+
 }

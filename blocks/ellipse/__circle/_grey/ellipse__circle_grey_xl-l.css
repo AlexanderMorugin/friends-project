@@ -1,0 +1,12 @@
+.ellipse__circle_grey_xl-l {
+  top: 211px;
+  left: 78px;
+}
+
+@media screen and (max-width: 1024px) {
+  .ellipse__circle_grey_xl-l {
+width: 94px;
+    top: 151px;
+    left: -78px;
+  }
+}
