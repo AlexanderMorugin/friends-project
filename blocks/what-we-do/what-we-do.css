@@ -2,4 +2,13 @@
   padding: 96px 124px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .what-we-do {
+    padding: 56px 24px;
+    display: flex;
+    flex-direction: column;
+  }
 }

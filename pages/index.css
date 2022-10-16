@@ -27,7 +27,22 @@
 @import url('../blocks/description/__paragraph/description__paragraph.css');
 @import url('../blocks/description/__paragraph/_accent/description__paragraph_accent.css');
 @import url('../blocks/ellipse/ellipse.css');
+@import url('../blocks/ellipse/__containeer/ellipse__containeer.css');
+@import url('../blocks/ellipse/__circle/ellipse__circle.css');
+@import url('../blocks/ellipse/__circle/_turq/ellipse__circle_turq_m-d.css');
+@import url('../blocks/ellipse/__circle/_turq/ellipse__circle_turq_m-r.css');
+@import url('../blocks/ellipse/__circle/_turq/ellipse__circle_turq_s-d.css');
+@import url('../blocks/ellipse/__circle/_turq/ellipse__circle_turq_s-r.css');
+@import url('../blocks/ellipse/__circle/_blue/ellipse__circle_blue_l-r.css');
+@import url('../blocks/ellipse/__circle/_red/ellipse__circle_red_l-l.css');
+@import url('../blocks/ellipse/__circle/_red/ellipse__circle_red_s-l.css');
+@import url('../blocks/ellipse/__circle/_yellow/ellipse__circle_yellow_s-t.css');
+@import url('../blocks/ellipse/__circle/_grey/ellipse__circle_grey_l-l.css');
+@import url('../blocks/ellipse/__circle/_grey/ellipse__circle_grey_xl-l.css');
+@import url('../blocks/ellipse/__circle/_grey/ellipse__circle_grey_xl-r.css');
+@import url('../blocks/ellipse/__circle/_grey/ellipse__circle_grey_xxl-l.css');
 @import url('../blocks/ellipse/__image/ellipse__image.css');
+@import url('../blocks/ellipse/__image/_size/ellipse__image_size.css');
 @import url('../blocks/ellipse/__image/_margin/ellipse__image_margin.css');
 @import url('../blocks/ellipse/__image/_position/ellipse__image_position_end.css');
 @import url('../blocks/ellipse/__text/ellipse__text.css');
@@ -51,6 +66,3 @@
 @import url('');
 @import url('');
 
-
-
-@import url('../style.css');
