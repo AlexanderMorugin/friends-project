@@ -1,0 +1,12 @@
+.social__icon {
+  width: 24px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+.social__icon:hover {
+  opacity: .4;
+  cursor: pointer;
+}

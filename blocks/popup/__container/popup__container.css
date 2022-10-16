@@ -1,0 +1,9 @@
+.popup__container {  
+  display: flex;
+  flex-direction: column;
+  row-gap: 56px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,17 @@
+.footer__box-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 0 42px 0;
+}
+
+@media screen and (max-width: 1132px) {
+  .footer__box-nav {
+    flex-direction: column;    
+    align-items: flex-start;
+    padding: 0 0 24px 0;
+  }
+}

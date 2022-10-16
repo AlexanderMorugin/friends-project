@@ -1,0 +1,27 @@
+.footer__box-contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+  /*align-items: center;*/
+  justify-content: flex-end;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 28px 0;
+  border-top: 0.5px solid rgba(255, 255, 255, .2);
+  border-bottom: 0.5px solid rgba(255, 255, 255, .2);
+}
+
+@media screen and (max-width: 1133px) {
+  .footer__box-contact {
+    gap: 30px;
+  }
+}
+
+
+@media screen and (max-width: 1065px) {
+  .footer__box-contact {
+    padding: 24px 0;    
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

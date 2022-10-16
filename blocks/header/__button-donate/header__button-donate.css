@@ -1,0 +1,24 @@
+.header__button-donate {
+  background-color: #EEB250;
+  border: 0;
+  width: 212px;
+  height: 100%;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header__button-donate:hover {
+  background-color: #F0BA61;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__button-donate {
+    width: 136px;
+  }
+}

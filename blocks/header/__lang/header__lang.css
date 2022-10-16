@@ -6,3 +6,15 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__lang {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang {
+    display: none;
+  }
+}

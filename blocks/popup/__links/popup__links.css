@@ -1,0 +1,11 @@
+.popup__links {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  list-style: none;
+  text-align: center;
+  width: 279px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

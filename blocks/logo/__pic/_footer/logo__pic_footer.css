@@ -1,0 +1,9 @@
+.logo__pic_footer {
+  background-size: 37px 45px;
+  border-right: 0.5px solid rgba(255, 255, 255, .2);
+  width: 72px;
+  height: 45px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

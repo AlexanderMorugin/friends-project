@@ -1,0 +1,13 @@
+.nav_footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+
+/*
+@media screen and (max-width: 1132px) {
+  .nav_footer {
+    gap: 16px;
+  }
+}
+*/
