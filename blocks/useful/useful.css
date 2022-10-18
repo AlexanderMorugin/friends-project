@@ -3,3 +3,11 @@
     margin: 0 auto;
     padding: 96px 0;
 }
+
+@media screen and (max-width: 768px) {
+    .useful {
+        max-width: 375px;
+        padding: 56px 0;
+        background-color: white;
+    }
+  }

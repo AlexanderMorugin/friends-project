@@ -5,3 +5,11 @@
     line-height: 50px;
     padding-bottom: 56px;
 }
+
+@media screen and (max-width: 768px) {
+    .useful__title {
+        font-size: 32px;
+        line-height: 44px;
+        padding-bottom: 24px;
+    }
+  }
