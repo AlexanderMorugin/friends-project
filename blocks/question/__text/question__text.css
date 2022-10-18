@@ -3,6 +3,13 @@
     line-height: 50px;
     font-weight: 700;
     text-align: center;
-    margin: 0;
     padding-bottom: 32px;
 }
+
+@media screen and (max-width: 768px) {
+    .question__text {
+        font-size: 32px;
+        line-height: 44px;
+        padding-bottom: 16px;
+    }
+  }
