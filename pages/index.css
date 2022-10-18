@@ -131,3 +131,7 @@
 @import url('');
 @import url('');
 
+@import url(../blocks/question/question.css);
+@import url(../blocks/question/__text/question__text.css);
+@import url(../blocks/question/__mail/question__mail.css);
+@import url(../blocks/question/__number/qustion__number.css);
