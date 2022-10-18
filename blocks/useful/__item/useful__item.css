@@ -1,0 +1,6 @@
+.useful__item {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 504px);
+    gap: 24px;
+}
