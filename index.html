@@ -8,7 +8,7 @@
     <meta name="keywords" content="html, css, javascript">
     <title>Фонд Друзья</title>
     <link rel="stylesheet" type="text/css" href="./pages/index.css">
-    <script src="./vendor/slider/slider.js" defer></script>    
+    <script src="./vendor/slider/slider.js" defer></script>
     <script src="./pages/index.js" defer></script>
   </head>
 <body class="page">
@@ -18,7 +18,7 @@
       <button class="header__button-menu" type="button" aria-label="Открыть меню навигации"></button>
       <a class="logo" href="#">
         <div class="logo__pic"></div>
-        <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p> 
+        <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>
       </a>
     </div>
     <ul class="nav">
@@ -111,8 +111,51 @@
           <li class="slider__indicator" data-slide-to="0"></li>
           <li class="slider__indicator" data-slide-to="1"></li>
           <li class="slider__indicator" data-slide-to="2"></li>
-        </ol>        
-      </div>      
+        </ol>
+      </div>
+    </section>
+    <section class="our-programs">
+      <h2 class="section-title section-title_margin">Наши программы</h2>
+      <div class="program program_color_turquoise">
+        <div class="program__description">
+          <figure class="program-logo"><img src="./images/ProCharity.svg" alt="Логотип программы">
+            <figcaption class="program-logo__caption">Программа</figcaption>
+          </figure>
+          <h3 class="program__title">ProCharity</h3>
+          <p class="program__text">Скорая интеллектуальная помощь для благотворительных фондов</p>
+          <button type="button" class="program__button">О программе</button>
+        </div>
+        <div class="program__containeer">
+          <img src="./images/Notebook.png" alt="Изображение" class="program__image">
+        </div>
+      </div>
+      <div class="program program_color_blue program_reverse">
+        <div class="program__description">
+          <figure class="program-logo"><img src="./images/Filantrop.svg" alt="Логотип программы">
+            <figcaption class="program-logo__caption">Программа</figcaption>
+          </figure>
+          <h3 class="program__title">Московская школа профессиональной филантропии</h3>
+          <p class="program__text">Повышение квалификации и профессионализма сотрудников НКО</p>
+          <button type="button" class="program__button">О программе</button>
+        </div>
+        <div class="program__containeer">
+          <img src="./images/MoscowSchool.png" alt="Изображение" class="program__image">
+        </div>
+      </div>
+      <div class="program program_color_red">
+        <div class="program__description">
+          <figure class="program-logo"><img src="./images/Prof.svg" alt="Логотип программы">
+            <figcaption class="program-logo__caption">Программа</figcaption>
+          </figure>
+          <h3 class="program__title">Команда профессионалов</h3>
+          <p class="program__text">Стратегическое развитие и менторская поддержка
+            социальных проектов и НКО</p>
+          <button type="button" class="program__button">О программе</button>
+        </div>
+        <div class="program__containeer">
+          <img src="./images/Urgant.png" alt="Изображение" class="program__image">
+        </div>
+      </div>
     </section>
 
     <section class="our-friends">
@@ -178,20 +221,20 @@
             <li class="slider__indicator" data-slide-to="2"></li>
             <li class="slider__indicator" data-slide-to="3"></li>
             <li class="slider__indicator" data-slide-to="4"></li>
-          </ol>        
-        </div>      
+          </ol>
+        </div>
       </div>
 
     </section>
 
 
   </main>
-  
+
   <footer class="footer">
     <div class="footer__box-nav">
       <a class="logo logo_footer" href="#">
         <div class="logo__pic logo__pic_footer"></div>
-        <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>      
+        <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>
       </a>
       <ul class="nav nav_footer">
         <li class="nav__box">
@@ -243,21 +286,21 @@
             </a>
           </li>
         </ul>
-      </div>      
+      </div>
     </div>
     <div class="footer__box-rights">
       <div class="footer__copy">
         <p class="footer__age">18+</p>
         <p class="footer__reserved">&copy; 2022 Фонд «Друзья» Все права защищены.</p>
-      </div>      
+      </div>
       <p class="footer__agreement">
-        Исключительные права на&nbsp;фото- и&nbsp;иные материалы принадлежат авторам. 
+        Исключительные права на&nbsp;фото- и&nbsp;иные материалы принадлежат авторам.
         Любое размещение материалов на&nbsp;сторонних ресурсах необходимо согласовывать с&nbsp;правообладателями.
       </p>
       <img class="footer__logo-duns" src="./images/icon-duns.png" alt="Логотип Duns">
     </div>
-  </footer> 
-  
+  </footer>
+
   <!-- Mobile - Модальное окно "Меню 1 ур" -->
   <div class="popup header_menu_mobile">
     <div class="popup__container">
@@ -280,7 +323,7 @@
         <li>
           <a class="popup__link" href="#">Контакты</a>
         </li>
-      </ul> 
+      </ul>
       <div class="popup__lang-social">
         <ul class="popup__lang">
           <li>
@@ -288,7 +331,7 @@
           </li>
           <li>
             <a class="popup__lang-link" href="#">En</a>
-          </li>      
+          </li>
         </ul>
         <ul class="popup__social">
           <li>
@@ -302,11 +345,11 @@
             </a>
           </li>
         </ul>
-      </div>   
-    </div>  
+      </div>
+    </div>
     <button type="button" class="popup__button-close" aria-label="Закрыть меню"></button>
   </div>
-  
+
   <!-- Mobile - Модальное окно "Фонд 2.1 ур" -->
   <div class="popup header_fund_mobile">
     <div class="popup__container">
@@ -341,11 +384,11 @@
             <p class="popup__link-description">Что пишут о нас в сети интернета</p>
           </a>
         </li>
-      </ul> 
-    </div>  
+      </ul>
+    </div>
     <button type="button" class="popup__button-close popup__button-back back_fund" aria-label="Вернуться в предыдущее меню"></button>
-  </div>  
-  
+  </div>
+
   <!-- Mobile - Модальное окно "Программы 2.2 ур" -->
   <div class="popup popup_programs header_programs_mobile">
     <div class="popup__container">
@@ -354,7 +397,7 @@
           <figure class="popup__block-logo">
             <img class="popup__logo-charity" src="./images/ProCharity.svg" alt="Логотип программы">
             <figcaption class="popup__block-logo-caption">Программа</figcaption>
-          </figure>        
+          </figure>
           <h3 class="popup__block-title">ProCharity</h3>
           <p class="popup__block-description">Скорая интеллектуальная помощь для благотворительных фондов</p>
           <button type="button" class="popup__block-button" aria-label="О программе">О программе</button>
@@ -377,11 +420,11 @@
           <p class="popup__block-description">Стратегическое развитие и менторская поддержка социальных проектов и НКО</p>
           <button type="button" class="popup__block-button" aria-label="О программе">О программе</button>
         </li>
-      </ul> 
-    </div> 
-    <button type="button" class="popup__button-close popup__button-back back_programs" aria-label="Вернуться в предыдущее меню"></button>   
-  </div>  
-  
+      </ul>
+    </div>
+    <button type="button" class="popup__button-close popup__button-back back_programs" aria-label="Вернуться в предыдущее меню"></button>
+  </div>
+
   <!-- Desktop - Модальное окно "Меню Фонд" -->
   <div class="popup popup_desktop desktop-menu-fund">
     <div class="popup__container">
@@ -416,10 +459,10 @@
             <p class="popup__link-description popup__link-description_desktop">Что пишут о нас в сети интернета</p>
           </a>
         </li>
-      </ul> 
-    </div>  
+      </ul>
+    </div>
   </div>
-  
+
   <!-- Desktop - Модальное окно "Меню Программы" -->
   <div class="popup popup_desktop popup_desktop-programs desktop-menu-programs">
     <div class="popup__container">
@@ -440,7 +483,7 @@
           <p class="popup__program-description">Стратегическое развитие и менторская поддержка некоммерческих организаций</p>
         </li>
       </ul>
-    </div>  
+    </div>
   </div>
 
   </body>
