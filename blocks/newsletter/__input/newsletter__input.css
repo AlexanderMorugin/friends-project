@@ -3,5 +3,18 @@
     height: 56px;
     border-radius: 56px;
     border: none;
-    padding-left: 32px;
+    padding-left: 18px;
+    background-image: url('../../../images/Your-email.svg');
+    background-repeat: no-repeat;
+    background-position: 18px;
+}
+
+.newsletter__input:focus{
+    background-image: none;
+}
+
+@media screen and (max-width: 768px){
+    .newsletter__input{
+        max-width: 272px;
+    }
 }

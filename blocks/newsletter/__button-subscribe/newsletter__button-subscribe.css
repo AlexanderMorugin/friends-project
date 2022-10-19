@@ -19,3 +19,9 @@
 .newsletter__button-subscribe:hover{
     opacity: 0.8;
 }
+
+@media screen and (max-width: 768px){
+    .newsletter__button-subscribe{
+        width: 272px;
+    }
+}
