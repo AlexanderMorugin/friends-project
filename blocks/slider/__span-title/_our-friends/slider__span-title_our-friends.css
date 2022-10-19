@@ -1,0 +1,27 @@
+.slider__span-title_our-friends {
+  color: #000;
+}
+
+@media screen and (max-width: 1150px) {
+  .slider__span-title_our-friends {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__span-title_our-friends {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider__span-title_our-friends {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .slider__span-title_our-friends {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,7 @@
+.popup__program-boxes {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 45px 0;
+  box-sizing: border-box;
+}
