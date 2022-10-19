@@ -1,0 +1,8 @@
+.popup__blocks {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 61px 0 47px 0;
+  box-sizing: border-box;
+}

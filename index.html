@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Яндекс Практикум. Проект - Фонд Друзья">
-  <meta name="author" content="Команда-4">
-  <meta name="keywords" content="html, css, javascript">
-  <title>Фонд Друзья</title>
-  <link rel="stylesheet" type="text/css" href="./pages/index.css">
-  <script type="text/javascript" src="./pages/index.js" defer></script>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Яндекс Практикум. Проект - Фонд Друзья">
+    <meta name="author" content="Команда-4">
+    <meta name="keywords" content="html, css, javascript">
+    <title>Фонд Друзья</title>
+    <link rel="stylesheet" type="text/css" href="./pages/index.css">
+    <script src="./vendor/slider/slider.js" defer></script>    
+    <script src="./pages/index.js" defer></script>
+  </head>
 <body class="page">
+
   <header class="header">
-    <div class="logo">
-      <img class="logo__pic" src="./images/logo-header.svg" alt="Логотип фонда">
-      <p class="logo__status">Фонд</p>
-      <p class="logo__name">Друзья</p>
+    <div class="header__logo-box">
+      <button class="header__button-menu" type="button" aria-label="Открыть меню навигации"></button>
+      <a class="logo" href="#">
+        <div class="logo__pic"></div>
+        <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p> 
+      </a>
     </div>
     <ul class="nav">
       <li class="nav__box">
-        <a class="nav__link" href="#">Фонд</a>
+        <a id="menu-fund" class="nav__link" href="#">Фонд</a>
       </li>
       <li class="nav__box">
-        <a class="nav__link" href="#">Программы</a>
+        <a id="menu-programs" class="nav__link" href="#">Программы</a>
       </li>
       <li class="nav__box">
-        <a class="nav__link" href="#">Для НКО</a>
+        <a id="menu-nko" class="nav__link" href="#">Для НКО</a>
       </li>
       <li class="nav__box">
-        <a class="nav__link" href="#">Для бизнеса</a>
+        <a id="menu-busines" class="nav__link" href="#">Для бизнеса</a>
       </li>
       <li class="nav__box">
-        <a class="nav__link" href="#">Блог</a>
+        <a id="menu-blog" class="nav__link" href="#">Блог</a>
       </li>
       <li class="nav__box">
-        <a class="nav__link" href="#">Партнёры</a>
+        <a id="menu-partners" class="nav__link" href="#">Партнёры</a>
       </li>
       <li class="nav__box">
-        <a class="nav__link" href="#">Контакты</a>
+        <a id="menu-contact" class="nav__link" href="#">Контакты</a>
       </li>
     </ul>
-    <ul class="header__social">
+    <ul class="social">
       <li>
         <a href="#">
-          <img class="header__social-icon" src="./images/icon-vk-white.svg" alt="Перейти в соцсеть ВКонтакте">
+          <img class="social__icon" src="./images/icon-vk-white.svg" alt="Перейти в соцсеть ВКонтакте">
         </a>
       </li>
       <li>
         <a href="#">
-          <img class="header__social-icon" src="./images/icon-telegram-white.svg" alt="Перейти в мессенджер Telegram">
+          <img class="social__icon" src="./images/icon-telegram-white.svg" alt="Перейти в мессенджер Telegram">
         </a>
       </li>
     </ul>
@@ -60,10 +64,384 @@
         <a class="header__lang-link" href="#">En</a>
       </li>      
     </ul>
-    <button class="header__button" type="button" aria-label="Помочь фонду">Помочь фонду</button>
-
-
+    <button class="header__button-donate" type="button" aria-label="Помочь фонду">Помочь фонду</button>
   </header>
 
-</body>
-</html>  
+  <main class="content">
+
+    <section class="slider" data-slider data-autoplay="true" data-interval="10000">
+      <div class="slider__container">
+        <div class="slider__items">
+          <div class="slider__item slider__item_theme_one">
+            <div class="slider__text-block">
+              <h1 class="slider__title">Мы <span class="slider__span-title">помогаем</span> другим, чтобы они <span class="slider__span-title">помогали</span> другим</h1>
+              <p class="slider__subtitle">
+                <span class="slider__span-subtitle">Фонд «Друзья»</span>
+                 — это фонд для тех, кто хочет приносить пользу другим людям ничего за это не беря.</p>
+              <button type="button" class="slider__button-programs">Наши программы</button>
+            </div>
+            <!-- Content 1 -->
+          </div>
+          <div class="slider__item slider__item_theme_two">
+            <div class="slider__text-block">
+              <h1 class="slider__title">Создаем настоящую <span class="slider__span-title">школу, институт</span> благотворительности</h1>
+              <p class="slider__subtitle">
+                <span class="slider__span-subtitle">Московская школа профессиональной филантропии</span>
+                 — это фактически акселератор НКО-проектов, который создает сообщество профессионалов.</p>
+            </div>
+            <!-- Content 2 -->
+          </div>
+          <div class="slider__item slider__item_theme_three">
+            <div class="slider__text-block">
+              <h1 class="slider__title">Профессионализм и опыт в <span class="slider__span-title">дар</span></h1>
+              <p class="slider__subtitle">
+                <span class="slider__span-subtitle">Платформа интеллектуального волонтерства ProCharity</span>
+                 — cкорая интеллектуальная помощь для благотворительных фондов.</p>
+            </div>
+            <!-- Content 3-->
+          </div>
+        </div>
+        <button class="slider__control" data-slide="prev">
+          <span class="sr-only">Go Left</span>
+        </button>
+        <button class="slider__control" data-slide="next">
+          <span class="sr-only">Go Right</span>
+        </button>
+        <ol class="slider__indicators">
+          <li class="slider__indicator" data-slide-to="0"></li>
+          <li class="slider__indicator" data-slide-to="1"></li>
+          <li class="slider__indicator" data-slide-to="2"></li>
+        </ol>        
+      </div>      
+    </section>
+
+    <section class="our-friends">
+      <h2 class="our-friends__title">Наши друзья</h2>
+      <div class="slider slider_our-friends" data-slider data-autoplay="true" data-interval="11000">
+        <div class="slider__container">
+          <div class="slider__items">
+            <div class="slider__item slider__item_theme_five">
+              <div class="slider__text-block slider__text-block_our-friends">
+                <h2 class="slider__title slider__title_our-friends">Благотворительность — это <span class="slider__span-title slider__span-title_our-friends">состояние души</span></h2>
+                <p class="slider__subtitle slider__subtitle_our-friends">
+                  <span class="slider__span-subtitle slider__span-subtitle_our-friends">Константин Хабенский,</span>
+                   актер, режиссер, основатель Фонда Константина Хабенского</p>
+              </div>
+              <!-- Content 1 -->
+            </div>
+            <div class="slider__item slider__item_theme_five">
+              <div class="slider__text-block slider__text-block_our-friends">
+                <h2 class="slider__title slider__title_our-friends">Благотворительность — это <span class="slider__span-title slider__span-title_our-friends">состояние души</span></h2>
+                <p class="slider__subtitle slider__subtitle_our-friends">
+                  <span class="slider__span-subtitle slider__span-subtitle_our-friends">Константин Хабенский,</span>
+                   актер, режиссер, основатель Фонда Константина Хабенского</p>
+              </div>
+              <!-- Content 1 -->
+            </div>
+            <div class="slider__item slider__item_theme_five">
+              <div class="slider__text-block slider__text-block_our-friends">
+                <h2 class="slider__title slider__title_our-friends">Благотворительность — это <span class="slider__span-title slider__span-title_our-friends">состояние души</span></h2>
+                <p class="slider__subtitle slider__subtitle_our-friends">
+                  <span class="slider__span-subtitle slider__span-subtitle_our-friends">Константин Хабенский,</span>
+                   актер, режиссер, основатель Фонда Константина Хабенского</p>
+              </div>
+              <!-- Content 1 -->
+            </div>
+            <div class="slider__item slider__item_theme_five">
+              <div class="slider__text-block slider__text-block_our-friends">
+                <h2 class="slider__title slider__title_our-friends">Благотворительность — это <span class="slider__span-title slider__span-title_our-friends">состояние души</span></h2>
+                <p class="slider__subtitle slider__subtitle_our-friends">
+                  <span class="slider__span-subtitle slider__span-subtitle_our-friends">Константин Хабенский,</span>
+                   актер, режиссер, основатель Фонда Константина Хабенского</p>
+              </div>
+              <!-- Content 1 -->
+            </div>
+            <div class="slider__item slider__item_theme_five">
+              <div class="slider__text-block slider__text-block_our-friends">
+                <h2 class="slider__title slider__title_our-friends">Благотворительность — это <span class="slider__span-title slider__span-title_our-friends">состояние души</span></h2>
+                <p class="slider__subtitle slider__subtitle_our-friends">
+                  <span class="slider__span-subtitle slider__span-subtitle_our-friends">Константин Хабенский,</span>
+                   актер, режиссер, основатель Фонда Константина Хабенского</p>
+              </div>
+              <!-- Content 1 -->
+            </div>
+          </div>
+          <button class="slider__control" data-slide="prev">
+            <span class="sr-only">Go Left</span>
+          </button>
+          <button class="slider__control" data-slide="next">
+            <span class="sr-only">Go Right</span>
+          </button>
+          <ol class="slider__indicators">
+            <li class="slider__indicator" data-slide-to="0"></li>
+            <li class="slider__indicator" data-slide-to="1"></li>
+            <li class="slider__indicator" data-slide-to="2"></li>
+            <li class="slider__indicator" data-slide-to="3"></li>
+            <li class="slider__indicator" data-slide-to="4"></li>
+          </ol>        
+        </div>      
+      </div>
+
+    </section>
+
+
+  </main>
+  
+  <footer class="footer">
+    <div class="footer__box-nav">
+      <a class="logo logo_footer" href="#">
+        <div class="logo__pic logo__pic_footer"></div>
+        <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>      
+      </a>
+      <ul class="nav nav_footer">
+        <li class="nav__box">
+          <a class="nav__link nav__link_footer" href="#">Фонд</a>
+        </li>
+        <li class="nav__box">
+          <a class="nav__link nav__link_footer" href="#">Программы</a>
+        </li>
+        <li class="nav__box">
+          <a class="nav__link nav__link_footer" href="#">Для НКО</a>
+        </li>
+        <li class="nav__box">
+          <a class="nav__link nav__link_footer" href="#">Для бизнеса</a>
+        </li>
+        <li class="nav__box">
+          <a class="nav__link nav__link_footer" href="#">Блог</a>
+        </li>
+        <li class="nav__box">
+          <a class="nav__link nav__link_footer" href="#">Партнёры</a>
+        </li>
+        <li class="nav__box">
+          <a class="nav__link nav__link_footer" href="#">Контакты</a>
+        </li>
+        <li class="nav__box">
+          <a class="nav__link nav__link_footer nav__donate" href="#">Помочь фонду</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__box-contact">
+      <div class="footer__pack">
+        <p class="footer__text">Написать нам:</p>
+        <p class="footer__text footer__text_value">friends@friends-foundation.com</p>
+      </div>
+      <div class="footer__pack">
+        <p class="footer__text">Позвонить нам:</p>
+        <p class="footer__text footer__text_value">+7 977 277-07-17</p>
+      </div>
+      <div class="footer__pack">
+        <p class="footer__text">Мы в соцсетях:</p>
+        <ul class="social social_footer">
+          <li>
+            <a href="#">
+              <img class="social__icon" src="./images/icon-vk-blue.svg" alt="Перейти в соцсеть ВКонтакте">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="social__icon" src="./images/icon-telegram-blue.svg" alt="Перейти в мессенджер Telegram">
+            </a>
+          </li>
+        </ul>
+      </div>      
+    </div>
+    <div class="footer__box-rights">
+      <div class="footer__copy">
+        <p class="footer__age">18+</p>
+        <p class="footer__reserved">&copy; 2022 Фонд «Друзья» Все права защищены.</p>
+      </div>      
+      <p class="footer__agreement">
+        Исключительные права на&nbsp;фото- и&nbsp;иные материалы принадлежат авторам. 
+        Любое размещение материалов на&nbsp;сторонних ресурсах необходимо согласовывать с&nbsp;правообладателями.
+      </p>
+      <img class="footer__logo-duns" src="./images/icon-duns.png" alt="Логотип Duns">
+    </div>
+  </footer> 
+  
+  <!-- Mobile - Модальное окно "Меню 1 ур" -->
+  <div class="popup header_menu_mobile">
+    <div class="popup__container">
+      <ul class="popup__links">
+        <li>
+          <a class="popup__link fund" href="#">Фонд</a>
+        </li>
+        <li>
+          <a class="popup__link programs" href="#">Программы</a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Блог</a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Для бизнеса</a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Для НКО</a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Контакты</a>
+        </li>
+      </ul> 
+      <div class="popup__lang-social">
+        <ul class="popup__lang">
+          <li>
+            <a class="popup__lang-link popup__lang-link_active" href="#">Ру</a>
+          </li>
+          <li>
+            <a class="popup__lang-link" href="#">En</a>
+          </li>      
+        </ul>
+        <ul class="popup__social">
+          <li>
+            <a href="#">
+              <img class="popup__social-icon" src="./images/icon-vk-black.svg" alt="Перейти в соцсеть ВКонтакте">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="popup__social-icon" src="./images/icon-telegram-black.svg" alt="Перейти в мессенджер Telegram">
+            </a>
+          </li>
+        </ul>
+      </div>   
+    </div>  
+    <button type="button" class="popup__button-close" aria-label="Закрыть меню"></button>
+  </div>
+  
+  <!-- Mobile - Модальное окно "Фонд 2.1 ур" -->
+  <div class="popup header_fund_mobile">
+    <div class="popup__container">
+      <ul class="popup__links">
+        <li>
+          <a class="popup__link" href="#">О фонде «Друзья»
+            <p class="popup__link-description">История фонда, миссия</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Структура фонда
+            <p class="popup__link-description">Экспертный совет, Попечительский совет, Правление, Команда</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Документы
+            <p class="popup__link-description">Оферта, Реквизиты, Устав Договор пожертвования</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Отчёты
+            <p class="popup__link-description">Айдит, Годовой отчёт</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">FAQ
+            <p class="popup__link-description">Ответы на часто задаваемые вопросы</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">СМИ о нас
+            <p class="popup__link-description">Что пишут о нас в сети интернета</p>
+          </a>
+        </li>
+      </ul> 
+    </div>  
+    <button type="button" class="popup__button-close popup__button-back back_fund" aria-label="Вернуться в предыдущее меню"></button>
+  </div>  
+  
+  <!-- Mobile - Модальное окно "Программы 2.2 ур" -->
+  <div class="popup popup_programs header_programs_mobile">
+    <div class="popup__container">
+      <ul class="popup__blocks">
+        <li class="popup__block popup__block_one">
+          <figure class="popup__block-logo">
+            <img class="popup__logo-charity" src="./images/ProCharity.svg" alt="Логотип программы">
+            <figcaption class="popup__block-logo-caption">Программа</figcaption>
+          </figure>        
+          <h3 class="popup__block-title">ProCharity</h3>
+          <p class="popup__block-description">Скорая интеллектуальная помощь для благотворительных фондов</p>
+          <button type="button" class="popup__block-button" aria-label="О программе">О программе</button>
+        </li>
+        <li class="popup__block popup__block_two">
+          <figure class="popup__block-logo">
+            <img class="popup__logo-filantrop" src="./images/Filantrop.svg" alt="Логотип программы">
+            <figcaption class="popup__block-logo-caption">Программа</figcaption>
+          </figure>
+          <h3 class="popup__block-title">Московская школа профессиональной филантропии</h3>
+          <p class="popup__block-description">Повышение квалификации и профессионализма сотрудников НКО</p>
+          <button type="button" class="popup__block-button" aria-label="О программе">О программе</button>
+        </li>
+        <li class="popup__block popup__block_three">
+          <figure class="popup__block-logo">
+            <img class="popup__logo-prof" src="./images/Prof.svg" alt="Логотип программы">
+            <figcaption class="popup__block-logo-caption">Программа</figcaption>
+          </figure>
+          <h3 class="popup__block-title">Команда профессионалов</h3>
+          <p class="popup__block-description">Стратегическое развитие и менторская поддержка социальных проектов и НКО</p>
+          <button type="button" class="popup__block-button" aria-label="О программе">О программе</button>
+        </li>
+      </ul> 
+    </div> 
+    <button type="button" class="popup__button-close popup__button-back back_programs" aria-label="Вернуться в предыдущее меню"></button>   
+  </div>  
+  
+  <!-- Desktop - Модальное окно "Меню Фонд" -->
+  <div class="popup popup_desktop desktop-menu-fund">
+    <div class="popup__container">
+      <ul class="popup__links popup__links_desktop">
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">О фонде «Друзья»
+            <p class="popup__link-description popup__link-description_desktop">История фонда, миссия</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">Структура фонда
+            <p class="popup__link-description popup__link-description_desktop">Экспертный совет, Попечительский совет, Правление, Команда</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">Документы
+            <p class="popup__link-description popup__link-description_desktop">Оферта, Реквизиты, Устав Договор пожертвования</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">Отчёты
+            <p class="popup__link-description popup__link-description_desktop">Айдит, Годовой отчёт</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">FAQ
+            <p class="popup__link-description popup__link-description_desktop">Ответы на часто задаваемые вопросы</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">СМИ о нас
+            <p class="popup__link-description popup__link-description_desktop">Что пишут о нас в сети интернета</p>
+          </a>
+        </li>
+      </ul> 
+    </div>  
+  </div>
+  
+  <!-- Desktop - Модальное окно "Меню Программы" -->
+  <div class="popup popup_desktop popup_desktop-programs desktop-menu-programs">
+    <div class="popup__container">
+      <ul class="popup__program-boxes">
+        <li class="popup__program-box">
+          <div class="popup__program-pic popup__program-procharity"></div>
+          <p class="popup__program-title">ProCharity</p>
+          <p class="popup__program-description">Скорая интеллектуальная помощь для благотворительных фондов</p>
+        </li>
+        <li class="popup__program-box">
+          <div class="popup__program-pic popup__program-filantrop"></div>
+          <p class="popup__program-title">Московская школа профессиональной филантропии</p>
+          <p class="popup__program-description">Повышение квалификации и профессионализма сотрудников НКО</p>
+        </li>
+        <li class="popup__program-box">
+          <div class="popup__program-pic popup__program-prof"></div>
+          <p class="popup__program-title">Команда профессионалов</p>
+          <p class="popup__program-description">Стратегическое развитие и менторская поддержка некоммерческих организаций</p>
+        </li>
+      </ul>
+    </div>  
+  </div>
+
+  </body>
+</html>

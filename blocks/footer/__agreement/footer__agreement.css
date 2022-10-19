@@ -1,0 +1,22 @@
+.footer__agreement {
+  line-height: 13px;
+  font-size: 10px;
+  font-weight: 400;
+  color: #999;
+  max-width: 473px;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1141px) {
+  .footer__agreement {
+    max-width: 423px;
+  }
+}
+
+@media screen and (max-width: 1095px) {
+  .footer__agreement {
+    max-width: 473px;
+  }
+}

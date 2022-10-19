@@ -1,0 +1,10 @@
+.slider__subtitle_our-friends {
+  max-width: 380px;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .slider__subtitle_our-friends {
+    max-width: 190px;
+  }
+}

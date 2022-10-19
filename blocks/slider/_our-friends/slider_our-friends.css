@@ -1,0 +1,9 @@
+.slider_our-friends {
+  margin: 56px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .slider_our-friends {
+    margin: 24px 0 0 0;
+  }
+}
