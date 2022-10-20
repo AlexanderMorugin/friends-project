@@ -120,8 +120,16 @@
 @import url(../blocks/slider/__span-subtitle/_our-friends/slider__span-subtitle_our-friends.css);
 @import url(../blocks/slider/__item/_theme/slider__item_theme_five.css);
 
+@import url(../blocks/slider/_partners/slider_partners.css);
+@import url(../blocks/slider/__partner-grey/slider__partner-grey.css);
+@import url(../blocks/slider/__item/_partner/slider__item_partner.css);
+@import url(../blocks/slider/__button-partners/slider__button-partners.css);
 
 @import url(../blocks/sr-only/sr-only.css);
 
 @import url(../blocks/our-friends/our-friends.css);
 @import url(../blocks/our-friends/__title/our-friends__title.css);
+
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__title/partners__title.css);
+

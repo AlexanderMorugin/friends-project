@@ -1,0 +1,14 @@
+.slider__item_partner {
+display: flex;
+gap: 26px;
+align-items: center;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .slider__item_partner {
+    gap: 32px;
+    }
+}

@@ -1,0 +1,20 @@
+.slider__button-partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 161px;
+  height: 56px;
+  border: 0;
+  border-radius: 56px;
+  background-color: #F8F8F8;
+  font-size: 14px;
+  font-weight: 700;
+  box-sizing: border-box;
+  margin: 0;
+  transition: box-shadow .1s ease-in-out;
+}
+
+.slider__button-partners:hover {
+  color: #54A8B6;
+  box-shadow: 0 20px 52px 0 rgba(95, 97, 113, 0.35);
+}

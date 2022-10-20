@@ -1,0 +1,11 @@
+.partners {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 96px 125px;
+}
+
+@media screen and (max-width: 768px) {
+  .partners {
+    padding: 56px 24px;
+  }
+}
