@@ -135,6 +135,9 @@
 @import url(../blocks/our-friends/our-friends.css);
 @import url(../blocks/our-friends/__title/our-friends__title.css);
 
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__title/partners__title.css);
+
 @import url('../blocks/what-we-do/what-we-do.css');
 @import url('../blocks/section-title/section-title.css');
 @import url('../blocks/section-title/_margin/section-title_margin.css');
