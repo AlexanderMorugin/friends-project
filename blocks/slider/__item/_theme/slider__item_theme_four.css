@@ -1,7 +1,7 @@
-.slider__item_theme_five {
-  background: url(../../../../images/slider-image-5.png) rgba(0, 0, 0, 0.3);
+.slider__item_theme_four {
+  background: url(../../../../images/slider-image-4.png) rgba(0, 0, 0, 0.3);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
- }
+}

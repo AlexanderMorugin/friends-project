@@ -103,6 +103,11 @@
 @import url(../blocks/slider/__item/_theme/slider__item_theme_one.css);
 @import url(../blocks/slider/__item/_theme/slider__item_theme_two.css);
 @import url(../blocks/slider/__item/_theme/slider__item_theme_three.css);
+@import url(../blocks/slider/__item/_theme/slider__item_theme_four.css);
+@import url(../blocks/slider/__item/_theme/slider__item_theme_five.css);
+@import url(../blocks/slider/__item/_theme/slider__item_theme_six.css);
+@import url(../blocks/slider/__item/_theme/slider__item_theme_seven.css);
+@import url(../blocks/slider/__item/_theme/slider__item_theme_eight.css);
 @import url(../blocks/slider/__container/slider__container.css);
 @import url(../blocks/slider/__items/slider__items.css);
 @import url(../blocks/slider/_disable-transition/slider_disable-transition.css);
@@ -118,7 +123,7 @@
 @import url(../blocks/slider/__span-title/_our-friends/slider__span-title_our-friends.css);
 @import url(../blocks/slider/__subtitle/_our-friends/slider__subtitle_our-friends.css);
 @import url(../blocks/slider/__span-subtitle/_our-friends/slider__span-subtitle_our-friends.css);
-@import url(../blocks/slider/__item/_theme/slider__item_theme_five.css);
+@import url(../blocks/slider/__item/_our-friends/slider__item_our-friends_one.css);
 
 @import url(../blocks/slider/_partners/slider_partners.css);
 @import url(../blocks/slider/__partner-grey/slider__partner-grey.css);
