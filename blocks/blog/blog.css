@@ -1,0 +1,10 @@
+.blog{
+    background: #FFFFFF;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 96px 124px;
+    /* height: 200px; */
+}

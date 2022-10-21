@@ -66,6 +66,14 @@
 @import url(../blocks/footer/__logo-duns/footer__logo-duns.css);
 @import url(../blocks/our-values/our-values.css);
 @import url(../blocks/counter/counter.css);
+
+@import url(../blocks/blog/blog.css);
+@import url(../blocks/blog/__heading/blog__heading.css);
+@import url(../blocks/blog/__button/blog__button.css);
+@import url(../blocks/blog/__container/blog__container.css);
+@import url(../blocks/blog/__main-post/blog__main-post.css);
+@import url(../blocks/blog/__overview-info/blog__overview-info.css);
+
 @import url('../blocks/what-we-do/what-we-do.css');
 @import url('../blocks/section-title/section-title.css');
 @import url('../blocks/section-title/_margin/section-title_margin.css');

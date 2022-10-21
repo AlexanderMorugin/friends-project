@@ -1,0 +1,12 @@
+.blog__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(328px, 680px));
+    grid-template-rows: repeat(auto-fit, minmax(432px, 1fr));
+    grid-template-areas: "main main secondary"
+                         "secondary secondary secondary";
+    gap: 24px;
+    justify-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

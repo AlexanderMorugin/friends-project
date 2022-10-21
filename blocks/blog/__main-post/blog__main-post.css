@@ -1,0 +1,10 @@
+.blog__main-post{
+    grid-area: main;
+    background-image: url('../../../images/Main__blog.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 26px;
+}
