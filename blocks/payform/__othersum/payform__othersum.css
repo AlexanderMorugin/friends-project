@@ -1,0 +1,14 @@
+.payform__othersum {
+  width: 100%;
+  height: 56px;
+  grid-column: 1/4;
+  border: none;
+  padding: 18px;
+  box-sizing: border-box;
+  background-image: url('../../../images/currency-ruble.svg');
+  background-position: right 18px center;
+  background-repeat: no-repeat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}

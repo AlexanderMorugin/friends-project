@@ -1,0 +1,11 @@
+.help-friends {
+  max-width: 1134px;
+  min-height: 590px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  background-color: #82607D;
+  padding: 40px 32px 60px 51px;
+  box-sizing: border-box;
+  position: relative;
+}

@@ -1,0 +1,18 @@
+.payform__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.payform__input:checked+.payform__period-item {
+  background-color: #82607D;
+  color: #F8F8F8;
+}
+
+.payform__input:hover+.payform__period-item {
+  opacity: 0.7;
+  transition: 0.5s;
+  cursor: pointer;
+}

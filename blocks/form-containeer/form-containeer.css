@@ -1,0 +1,10 @@
+.form-containeer {
+  width: 664px;
+  min-height: 490px;
+  background-color: #fff;
+  padding: 56px 57px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
