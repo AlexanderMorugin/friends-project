@@ -1,0 +1,8 @@
+.blog__secondary-post{
+    /*grid-area: secondary;*/
+    display: grid;
+    grid-template-columns: 328px;
+    grid-template-rows: 216px;
+    cursor: pointer;
+    position: relative;
+}

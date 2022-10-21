@@ -3,8 +3,8 @@
     background-image: url('../../../images/Main__blog.png');
     background-size: cover;
     background-position: center;
-    width: 100%;
-    padding-top: 16px;
-    padding-left: 16px;
-    padding-bottom: 26px;
+    display: grid;
+    grid-template-columns: 680px;
+    grid-template-rows: 432px;
+    cursor: pointer;
 }

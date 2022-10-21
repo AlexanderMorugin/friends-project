@@ -73,6 +73,22 @@
 @import url(../blocks/blog/__container/blog__container.css);
 @import url(../blocks/blog/__main-post/blog__main-post.css);
 @import url(../blocks/blog/__overview-info/blog__overview-info.css);
+@import url(../blocks/blog/__classification-wrapper/blog__classification-wrapper.css);
+@import url(../blocks/blog/__classification-wrapper/_s/blog__classification-wrapper_s.css);
+@import url(../blocks/blog/__classification-text/blog__classification-text.css);
+@import url(../blocks/blog/__classification-text/_s/blog__classification-text_s.css);
+@import url(../blocks/blog/__info-main/blog__info-main.css);
+@import url(../blocks/blog/__date-main/blog__date-main.css);
+@import url(../blocks/blog/__title-main/blog__title-main.css);
+@import url(../blocks/blog/__subtitle-main/blog__subtitle-main.css);
+
+@import url(../blocks/blog/__secondary-post/blog__secondary-post.css);
+@import url(../blocks/blog/__img/blog__img.css);
+@import url(../blocks/blog/__info-secondary/blog__info-secondary.css);
+@import url(../blocks/blog/__date-secondary/blog__date-secondary.css);
+@import url(../blocks/blog/__title-secondary/blog__title-secondary.css);
+@import url(../blocks/blog/__subtitle-secondary/blog__subtitle-secondary.css);
+
 
 @import url('../blocks/what-we-do/what-we-do.css');
 @import url('../blocks/section-title/section-title.css');

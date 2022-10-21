@@ -3,4 +3,5 @@
     flex-direction: column;
     justify-content: space-between;
     max-width: 358px;
+    padding: 16px 0 26px 16px;
 }
