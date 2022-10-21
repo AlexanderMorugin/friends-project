@@ -1,0 +1,6 @@
+.blog__img_mobile{
+    max-width: 288px;
+    width: 100%;
+    height: 216px;
+    object-fit: cover;
+}
