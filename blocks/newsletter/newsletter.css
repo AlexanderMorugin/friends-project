@@ -8,7 +8,7 @@
     max-width: 1280px;
 }
 
-@media screen and (max-width: 837px){
+@media screen and (max-width: 856px){
     .newsletter{
         padding: 42px 24px 52px;
         max-width: 320px;
@@ -16,7 +16,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 836px){
+@media screen and (min-width: 320px) and (max-width: 856px){
     .newsletter{
         max-width: 100%;
     }
