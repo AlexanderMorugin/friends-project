@@ -1,0 +1,10 @@
+.useful-card__image {
+    max-width: 160px;
+}
+
+@media screen and (max-width: 768px) {
+    .useful-card__image{
+        max-width: 120px;
+        align-self: flex-end;
+    }
+  }
