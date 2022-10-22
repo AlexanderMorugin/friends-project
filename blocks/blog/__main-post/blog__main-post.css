@@ -1,0 +1,10 @@
+.blog__main-post{
+    grid-area: main;
+    background-image: url('../../../images/Main__blog.png');
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 680px;
+    grid-template-rows: 432px;
+    cursor: pointer;
+}

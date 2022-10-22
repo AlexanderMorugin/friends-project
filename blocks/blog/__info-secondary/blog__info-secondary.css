@@ -1,0 +1,8 @@
+.blog__info-secondary{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 26px 24px;
+    background-color: #F8F8F8;
+    max-width: 328px; 
+}

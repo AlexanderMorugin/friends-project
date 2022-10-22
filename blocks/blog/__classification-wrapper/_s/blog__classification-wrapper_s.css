@@ -1,0 +1,11 @@
+.blog__classification-wrapper_s{
+    padding: 2px 8px;
+    max-width: 57px;
+    max-height: 24px;
+    background: #FFA923;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    margin: 16px 0 0 16px;
+}

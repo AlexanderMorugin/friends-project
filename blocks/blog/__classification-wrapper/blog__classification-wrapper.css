@@ -1,0 +1,7 @@
+.blog__classification-wrapper{
+    padding: 2px 8px;
+    max-width: 83px;
+    background: #00FFFA;
+    display: flex;
+    justify-content: center;
+}
