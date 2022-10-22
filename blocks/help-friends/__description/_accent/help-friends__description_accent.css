@@ -1,0 +1,12 @@
+.help-friends__description_accent {
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .help-friends__description_accent {
+    font-size: 25px;
+    line-height: 38px;
+  }
+
+}
