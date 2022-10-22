@@ -1,5 +1,7 @@
 .what-we-do {
-  padding: 96px 124px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 96px 124px 0 124px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -7,8 +9,6 @@
 
 @media screen and (max-width: 768px) {
   .what-we-do {
-    padding: 56px 24px;
-    display: flex;
-    flex-direction: column;
+    padding: 56px 24px 0 24px;
   }
 }

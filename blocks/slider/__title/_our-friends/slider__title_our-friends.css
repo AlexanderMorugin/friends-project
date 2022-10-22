@@ -1,15 +1,9 @@
 .slider__title_our-friends {
+  line-height: 50px;
+  font-size: 40px;
   max-width: 700px;
   color: #000;
 }
-
-@media screen and (max-width: 1150px) {
-  .slider__title_our-friends {
-    max-width: 450px;
-    line-height: 58px;
-    font-size: 48px;
-  }
-} 
 
 @media screen and (max-width: 1024px) {
   .slider__title_our-friends {
@@ -17,7 +11,7 @@
     line-height: 50px;
     font-size: 40px;
   }
-} 
+}
 
 @media screen and (max-width: 768px) {
   .slider__title_our-friends {
@@ -29,7 +23,7 @@
 
 @media screen and (max-width: 375px) {
   .slider__title_our-friends {
-    line-height: 32px;
-    font-size: 26px;
+    line-height: 30px;
+    font-size: 24px;
   }
 }

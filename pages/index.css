@@ -124,6 +124,12 @@
 @import url(../blocks/slider/__subtitle/_our-friends/slider__subtitle_our-friends.css);
 @import url(../blocks/slider/__span-subtitle/_our-friends/slider__span-subtitle_our-friends.css);
 @import url(../blocks/slider/__item/_our-friends/slider__item_our-friends_one.css);
+@import url(../blocks/slider/__item/_our-friends/slider__item_our-friends_two.css);
+@import url(../blocks/slider/__item/_our-friends/slider__item_our-friends_three.css);
+@import url(../blocks/slider/__item/_our-friends/slider__item_our-friends_four.css);
+@import url(../blocks/slider/__item/_our-friends/slider__item_our-friends_five.css);
+@import url(../blocks/slider/__item/_our-friends/slider__item_our-friends_six.css);
+@import url(../blocks/slider/__item/_our-friends/slider__item_our-friends_seven.css);
 
 @import url(../blocks/slider/_partners/slider_partners.css);
 @import url(../blocks/slider/__partner-grey/slider__partner-grey.css);
@@ -187,3 +193,24 @@
 @import url('../blocks/program/_reverse/program_reverse.css');
 @import url('../blocks/program-logo/program-logo.css');
 @import url('../blocks/program-logo/__caption/program-logo__caption.css');
+
+@import url(../blocks/counter/counter.css);
+@import url(../blocks/counter/__items/counter__items.css);
+@import url(../blocks/counter/__item/counter__item.css);
+@import url(../blocks/counter/__title/counter__title.css);
+@import url(../blocks/counter/__text/counter__text.css);
+
+@import url(../blocks/our-values/our-values.css);
+@import url(../blocks/our-values/__title/our-values__title.css);
+@import url(../blocks/our-values/__items/our-values__items.css);
+@import url(../blocks/our-values/__item/our-values__item.css);
+@import url(../blocks/our-values/__pic/our-values__pic.css);
+@import url(../blocks/our-values/__text/our-values__text.css);
+
+@import url(../blocks/newsletter/newsletter.css);
+@import url(../blocks/newsletter/__about/newsletter__about.css);
+@import url(../blocks/newsletter/__paragraph-heading/newsletter__paragraph-heading.css);
+@import url(../blocks/newsletter/__span-heading/newsletter__span-heading.css);
+@import url(../blocks/newsletter/__button-subscribe/newsletter__button-subscribe.css);
+@import url(../blocks/newsletter/__form/newsletter__form.css);
+@import url(../blocks/newsletter/__input/newsletter__input.css);

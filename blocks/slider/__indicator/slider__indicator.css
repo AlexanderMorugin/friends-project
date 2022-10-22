@@ -3,8 +3,8 @@
   box-sizing: content-box;
   width: 10px;
   height: 10px;
-  margin-right: 3px;
-  margin-left: 3px;
+  margin-right: 6px;
+  margin-left: 6px;
   text-indent: -999px;
   background-image: url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect opacity='0.4' width='10' height='10' rx='5' fill='%23AAAAAA'/%3E%3C/svg%3E%0A");
   background-clip: padding-box;

@@ -1,0 +1,19 @@
+.slider__item_our-friends_two {
+  background: url(../../../../images/slider-our-friends-2.png);
+  background-position: right -160px bottom 60px;
+  background-repeat: no-repeat;
+  background-size: 63%;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__item_our-friends_two {
+    background-position: right -180px center;
+    background-size: 70%;
+  }
+ }
+
+@media screen and (max-width: 768px) {
+  .slider__item_our-friends_two {
+   background: #F8F8F8;
+  }
+ }

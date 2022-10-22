@@ -2,7 +2,7 @@
   padding: 143px 125px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
   .slider__text-block_our-friends {
     padding: 100px 90px;
   }
@@ -10,12 +10,7 @@
 
 @media screen and (max-width: 768px) {
   .slider__text-block_our-friends {
-    padding: 36px 30px;
+    padding: 40px 32px 114px 32px;
   }
 }
 
-@media screen and (max-width: 375px) {
-  .slider__text-block_our-friends {
-    padding: 36px 13px;
-  }
-}

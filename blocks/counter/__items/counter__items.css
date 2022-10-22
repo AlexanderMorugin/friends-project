@@ -1,0 +1,21 @@
+.counter__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*align-items: center;*/
+  gap: 24px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+@media screen and (max-width: 970px) {
+  .counter__items {
+    justify-content: center;
+    column-gap: 60px;
+    row-gap: 24px;
+  }
+}
+

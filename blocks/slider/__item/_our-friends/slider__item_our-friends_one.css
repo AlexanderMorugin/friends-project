@@ -1,27 +1,20 @@
 .slider__item_our-friends_one {
-  background: url(../../../../images/slider-our-friends-1.png), linear-gradient(#F8F8F8 486px, #fff 60px);
-  background-position: right -127px top 53px , left top;
+  background: url(../../../../images/slider-our-friends-1.png);
+  background-position: right -180px bottom 60px;
   background-repeat: no-repeat;
-  background-size: 685px 493px, 100% 100%;
-  height: 546px;
+  background-size: 60%;
 }
 
 @media screen and (max-width: 1024px) {
   .slider__item_our-friends_one {
-    background-position: right -260px bottom, left top;
+    background-position: right -180px center;
+    background-size: 70%;
   }
  }
 
 @media screen and (max-width: 768px) {
  .slider__item_our-friends_one {
-   background-position: right -220px bottom, left top;
-   background-size: 80%, 100% 374px;
+  background: #F8F8F8;
  }
 }
 
-@media screen and (max-width: 520px) {
-  .slider__item_our-friends_one {
-    background-position: right -150px bottom, left top;
-    background-size: 100%, 100% 374px;
-  }
- }

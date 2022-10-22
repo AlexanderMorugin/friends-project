@@ -1,0 +1,19 @@
+.slider__item_our-friends_four {
+  background: url(../../../../images/slider-our-friends-4.png);
+  background-position: right -100px bottom 60px;
+  background-repeat: no-repeat;
+  background-size: 55%;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__item_our-friends_four {
+    background-position: right -200px center;
+    background-size: 70%;
+  }
+ }
+
+@media screen and (max-width: 768px) {
+  .slider__item_our-friends_four {
+   background: #F8F8F8;
+  }
+ }
