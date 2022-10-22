@@ -9,3 +9,12 @@
   box-sizing: border-box;
   position: relative;
 }
+
+@media screen and (max-width: 768px) {
+  .help-friends {
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+  }
+
+}

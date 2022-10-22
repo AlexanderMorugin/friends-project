@@ -4,3 +4,12 @@
   line-height: 26px;
   margin: 0 0 38px;
 }
+
+@media screen and (max-width: 768px) {
+  .payform__title {
+    font-size: 30px;
+    line-height: 44px;
+    margin-bottom: 24px;
+  }
+
+}

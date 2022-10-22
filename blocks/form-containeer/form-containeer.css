@@ -1,5 +1,5 @@
 .form-containeer {
-  width: 664px;
+  max-width: 664px;
   min-height: 490px;
   background-color: #fff;
   padding: 56px 57px 64px;
@@ -7,4 +7,12 @@
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .form-containeer {
+    min-height: 500px;
+    padding: 40px 24px;
+  }
+
 }

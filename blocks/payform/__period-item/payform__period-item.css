@@ -13,3 +13,17 @@
   text-transform: uppercase;
   color: #999999;
 }
+
+@media screen and (max-width: 1150px) {
+  .payform__period-item {
+    width: 180px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .payform__period-item {
+    width: 164px;
+
+  }
+}
