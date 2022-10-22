@@ -16,3 +16,14 @@
   transition: 0.5s;
   cursor: pointer;
 }
+
+.payform__input:checked+.payform__amount-item {
+  background-color: #82607D;
+  color: #F8F8F8;
+}
+
+.payform__input:hover+.payform__amount-item {
+  opacity: 0.7;
+  transition: 0.5s;
+  cursor: pointer;
+}
