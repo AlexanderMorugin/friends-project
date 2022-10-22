@@ -1,0 +1,10 @@
+.contact-us__message-input{
+    max-width: 744px;
+    height: 161px;
+    width: 100%;
+    background: #F8F8F8;
+    border-radius: 26px;
+    resize: none;
+    padding: 18px 0 0 32px;
+    border: none;
+}

@@ -1,0 +1,5 @@
+.contact-us__label{
+    max-width: 100%;
+    display: flex;
+    gap: 12px;
+}
