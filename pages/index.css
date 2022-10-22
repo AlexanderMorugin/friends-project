@@ -290,3 +290,8 @@
 @import url(../blocks/useful-card/__text/useful-card__text.css);
 @import url(../blocks/useful-card/__link/useful-card__link.css);
 @import url(../blocks/useful-card/__image/useful-card__image.css);
+
+@import url(../blocks/question/question.css);
+@import url(../blocks/question/__text/question__text.css);
+@import url(../blocks/question/__mail/question__mail.css);
+@import url(../blocks/question/__number/qustion__number.css);
