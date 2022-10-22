@@ -1,0 +1,9 @@
+.question {
+    padding: 96px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .question {
+      padding: 56px 0;
+    }
+  }
