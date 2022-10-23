@@ -1,0 +1,9 @@
+.help-volunteer__item {
+    max-width: 472px;
+}
+
+@media screen and (max-width: 767px){
+    .help-volunteer__item {
+        padding-bottom: 32px;
+    }
+}

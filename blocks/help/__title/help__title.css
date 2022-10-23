@@ -1,0 +1,15 @@
+.help__title {
+    text-align: center;
+    font-size: 44px;
+    line-height: 58px;
+    font-weight: 400;
+    padding-bottom: 80px;
+}
+
+@media screen and (max-width: 767px){
+    .help__title {
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 40px;
+    }
+}

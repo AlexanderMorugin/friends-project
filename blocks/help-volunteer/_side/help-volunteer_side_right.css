@@ -1,0 +1,21 @@
+.help-volunteer_side_right {
+    padding-left: 212px;
+}
+
+@media screen and (max-width: 1279px){
+    .help-volunteer_side_right {
+        padding-left: 120px;
+    }
+}
+
+@media screen and (max-width: 1027px){
+    .help-volunteer_side_right {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .help-volunteer_side_right {
+        padding-left: 24px;
+    }
+}

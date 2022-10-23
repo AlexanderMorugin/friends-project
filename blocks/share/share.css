@@ -1,0 +1,9 @@
+.share {
+    max-width: 416px;
+}
+
+@media screen and (max-width: 767px){
+    .share {
+        max-width: 327px;
+    }
+}

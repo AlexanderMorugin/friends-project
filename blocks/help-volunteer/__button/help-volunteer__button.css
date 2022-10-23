@@ -1,0 +1,19 @@
+.help-volunteer__button {
+    background-image: url(../../../images/Button56.svg);
+    width: 287px;
+    height: 56px;
+    border-radius: 48px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+.help-volunteer__button:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 767px){
+    .help-volunteer__button {
+        max-width: 329px;
+    }
+}
