@@ -72,7 +72,108 @@
   <main class="content">
 
 
-<!-- Здесь будет Блок “Форма пожертвования” -->
+<!--Блок “Форма пожертвования” -->
+<section class="help-friends__containeer">
+  <div class="help-friends help-friends_second-page">
+    <p class="help-friends__description help-friends__description_second-page">Поддерживая «Друзей» вы помогаете
+      <span class="help-friends__description_accent">развитию всей индустрии</span>
+    </p>
+    <div class="form-containeer form-container_second-page">
+      <form class="payform">
+        <h3 class="payform__field-title">Выберите тип и сумму пожертвования</h3>
+        <fieldset class="payform__period">
+          <label for="one-time">
+            <input type="radio" name="pay-period" id="one-time" class="payform__input">
+            <span class="payform__period-item payform__label">Разовое</span>
+          </label>
+          <label for="monthly">
+            <input type="radio" name="pay-period" id="monthly" checked class="payform__input">
+            <span class="payform__period-item payform__label payform__period-item_position_right">Ежемесячное</span>
+          </label>
+        </fieldset>
+        <h3 class="payform__field-title">Сумма поддержки</h3>
+        <fieldset class="payform__amount">
+          <label for="5000" class="payform__label payform__label_flex">
+            <input type="radio" name="paysum" id="5000" class="payform__input">
+            <span class="payform__amount-item">5000</span>
+          </label>
+          <label for="10000" class="payform__label payform__label_flex">
+            <input type="radio" name="paysum" id="10000" class="payform__input">
+            <span class="payform__amount-item">10000</span>
+          </label>
+          <label for="50000" class=" payform__label payform__label_flex payform__label_media_768">
+            <input type="radio" name="paysum" id="50000" class="payform__input">
+            <span class="payform__amount-item">50000</span>
+          </label>
+          <input type="number" id="entersum" placeholder="Другая сумма" class="payform__othersum payform__label">
+        </fieldset>
+        <h3 class="payform__field-title">Способ оплаты</h3>
+        <fieldset class="payform__amount payform__paymethod">
+          <label for="visa" class="payform__label payform__label_flex">
+            <input type="radio" name="paysum" id="visa" class="payform__input">
+            <span class="payform__amount-item"><img src="./images/visa-mir.svg" alt=""></span>
+          </label>
+          <label for="gpay" class="payform__label payform__label_flex">
+            <input type="radio" name="paysum" id="gpay" class="payform__input">
+            <span class="payform__amount-item"><img src="./images/GPay.svg" alt=""></span>
+          </label>
+          <label for="appay" class="payform__label payform__label_flex payform__label_media_768">
+            <input type="radio" name="paysum" id="appay" class="payform__input">
+            <span class="payform__amount-item"><img src="./images/ApPay.svg" alt=""></span>
+          </label>
+        </fieldset>
+        <h3 class="payform__field-title">Банковская карта</h3>
+        <div class="payform__cardscontaineer">
+          <div class="payform__card payform__card_side_front">
+            <input type="number" placeholder="Номер карты" class="payform__cardinfo payform__label">
+            <input type="number" placeholder="Держатель карты" class="payform__cardinfo payform__label">
+            <div class="payform__card-period-containeer">
+              <label class="payform__card-period">Действует до
+                <input type="number" placeholder="ММ/ГГ"
+                  class="payform__cardinfo payform__cardinfo_size_s payform__label">
+              </label>
+              <div class="payform__cvc-frontcontaineer">
+                <label class="payform__cvc">CVV / CVC</label>
+                <input type="password" class="payform__cardinfo payform__cardinfo_size_xs payform__label ">
+              </div>
+              <div>
+                <p class="payform__total-text">Итого к оплате</p>
+                <p class="payform__total-sum">1000 ₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="payform__card payform__card_side_back">
+            <label class="payform__cvc">CVV / CVC</label>
+            <input type="password" class="payform__cardinfo payform__cardinfo_size_xs payform__label">
+            <p class="payform__cvc-info">Последние 3 цифры на белой полосе с обратной стороны карты</p>
+          </div>
+        </div>
+        <fieldset class="payform__holder-info">
+          <input type="text" placeholder="Имя" class="payform__holder payform__label">
+          <input type="text" placeholder="Фамилия" class="payform__holder payform__label">
+          <input type="tel" placeholder="Телефон" class="payform__holder payform__label">
+          <input type="email" placeholder="Email" class="payform__holder payform__label">
+        </fieldset>
+        <fieldset class="payform__agreement">
+          <label for="offer">
+            <input type="checkbox" name="agreement" id="offer" class="payform__input">
+            <span class="payform__checkbox"></span>
+            <span class="payform__checkbox-text">Согласен с <a href="#"
+                class="payform__checkbox-link">офертой</a></span>
+          </label>
+          <label for="personaldata">
+            <input type="checkbox" name="agreement" id="personaldata" class="payform__input">
+            <span class="payform__checkbox"></span>
+            <span class="payform__checkbox-text">Ознакомился и согласен с <a href="#"
+                class="payform__checkbox-link">политикой обработки персональных данных</a></span>
+          </label>
+        </fieldset>
+        <button type="submit" class="payform__button">Поддержать фонд</button>
+      </form>
+
+    </div>
+  </div>
+</section>
 
 
     <section class="question">
@@ -110,10 +211,10 @@
             <p class="help-volunteer__text">Помогая фондам своими профессиональными навыками, Вы сохраняете средства в бюджете организаций и позволяете им помочь еще большему количеству людей.</p>
             <button type="button" class="help-volunteer__button"></button>
         </div>
-        <img class="help-volunteer__image" src="images/Rectangle 530.png" alt="изображение">
+        <img class="help-volunteer__image" src="images/Rectangle530.png" alt="изображение">
       </div>
       <div class="help-volunteer help-volunteer_direction_reverse">
-        <img class="help-volunteer__image" src="images/Rectangle 531.png" alt="изображение">
+        <img class="help-volunteer__image" src="images/Rectangle531.png" alt="изображение">
         <div class="help-volunteer__item">
           <h3 class="help-volunteer__title">Стать попечителем</h3>
           <p class="help-volunteer__text">Инвестируя в одну из программ фонда “Друзья”, вы можете стать попечителем Московской школы профессиональной филантропии, платформы ProCharity или фонда «Друзья», а также наших благополучателей  – НКО, социальной организации/проекта или конкретного профессионала.</p>
