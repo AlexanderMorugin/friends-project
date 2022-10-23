@@ -1,13 +1,14 @@
 .useful {
     max-width: 1032px;
     margin: 0 auto;
-    padding: 96px 0;
+    padding: 96px 0 0 0;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
     .useful {
         max-width: 375px;
-        padding: 56px 0;
+        padding: 56px 0 0 0;
         background-color: white;
     }
   }

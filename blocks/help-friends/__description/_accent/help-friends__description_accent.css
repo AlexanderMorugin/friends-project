@@ -1,6 +1,9 @@
 .help-friends__description_accent {
   font-weight: 400;
+  font-family: 'Playfair Display';
   font-style: italic;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {
