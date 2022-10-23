@@ -91,6 +91,8 @@
 @import url(../blocks/footer/__agreement/footer__agreement.css);
 @import url(../blocks/footer/__logo-duns/footer__logo-duns.css);
 
+@import url(../blocks/footer/_main/footer_main.css);
+
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__text-block/slider__text-block.css);
 @import url(../blocks/slider/__title/slider__title.css);

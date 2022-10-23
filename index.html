@@ -1,21 +1,16 @@
-<!DOCTYPE html>
 <html lang="ru">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Яндекс Практикум. Проект - Фонд Друзья">
-  <meta name="author" content="Команда-4">
-  <meta name="keywords" content="html, css, javascript">
-  <title>Фонд Друзья</title>
-  <link rel="stylesheet" type="text/css" href="./pages/index.css">
-  <link rel="stylesheet" href="./style.css">
-  <script src="./vendor/slider/slider.js" defer></script>
-  <script src="./pages/index.js" defer></script>
-</head>
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Яндекс Практикум. Проект - Фонд Друзья">
+    <meta name="author" content="Команда-4">
+    <meta name="keywords" content="html, css, javascript">
+    <title>Фонд Друзья</title>
+    <link rel="stylesheet" type="text/css" href="./pages/index.css">
+    <script src="./vendor/slider/slider.js" defer></script>
+    <script src="./pages/index.js" defer></script>
+  </head>
 <body class="page">
-
   <header class="header">
     <div class="header__logo-box">
       <button class="header__button-menu" type="button" aria-label="Открыть меню навигации"></button>
@@ -71,9 +66,7 @@
       <button class="header__button-donate" type="submit" aria-label="Помочь фонду">Помочь фонду</button>
     </form>
   </header>
-
   <main class="content">
-
     <section class="slider" data-slider data-autoplay="true" data-interval="10000">
       <div class="slider__container">
         <div class="slider__items">
@@ -345,8 +338,6 @@
         </li>
       </ul>
     </section>
-
-    <!--"Полезно" -->
     <section class="useful">
       <h2 class="useful__title">Полезно</h2>
       <div class="useful__item">
@@ -380,7 +371,6 @@
         </div>
       </div>
     </section>
-
     <section class="our-friends">
       <h2 class="our-friends__title">Наши друзья</h2>
       <div class="slider slider_our-friends" data-slider data-autoplay="true" data-interval="11000">
@@ -496,8 +486,6 @@
         </ol>
       </div>
     </section>
-
-    <!--Блок "Блог"-->
     <section class="blog">
       <h2 class="blog__heading"> Блог </h2>
       <ul class="blog__container">
@@ -506,7 +494,6 @@
             <div class="blog__classification-wrapper">
               <p class="blog__classification-text"> Статистика </p>
             </div>
-
             <div class="blog__info-main">
               <p class="blog__date-main"> 7 июля 2021 года </p>
               <p class="blog__title-main"> Россияне и благотворительность </p>
@@ -514,7 +501,6 @@
             </div>
           </div>
         </li>
-
         <li class="blog__secondary-post">
           <img class="blog__img" src="./images/Secondary__blog_2.png" alt="Изображение поста">
           <div class="blog__info-secondary">
@@ -523,7 +509,6 @@
             <p class="blog__subtitle-secondary"> Выпуск уже третьего набора Московской Школы Профессиональной Филантропии </p>
           </div>
         </li>
-
         <li class="blog__secondary-post">
           <div class="blog__classification-wrapper blog__classification-wrapper_s">
             <p class="blog__classification-text blog__classification-text_s"> Разбор </p>
@@ -535,7 +520,6 @@
             <p class="blog__subtitle-secondary"> Как работает благотворительность в России: кто, как, почему и сколько жертвует другим </p>
           </div>
         </li>
-
         <li class="blog__secondary-post">
           <img class="blog__img" src="./images/Secondary__blog_4.png" alt="Изображение поста">
           <div class="blog__info-secondary">
@@ -544,7 +528,6 @@
             <p class="blog__subtitle-secondary"> Самые частые случаи благотворительности — поддержка детей, религиозных .. </p>
           </div>
         </li>
-
         <li class="blog__secondary-post">
           <img class="blog__img" src="./images/Secondary__blog_5.png" alt="Изображение поста">
           <div class="blog__info-secondary">
@@ -613,7 +596,6 @@
       </div>
       <button class="blog__button blog__button_mobile"> Перейти в блог </button>
     </section>
-
     <section class="newsletter">
       <div class="newsletter__about">
         <span class="newsletter__span-heading"> Подпишитесь на новостную рассылку/вебинары </span>
@@ -625,7 +607,6 @@
         <button type="submit" class="newsletter__button-subscribe"> Подписаться </button>
       </form>
     </section>
-
     <section class="partners">
       <h2 class="partners__title">Наши партнёры</h2>
       <div class="slider slider_partners" data-slider data-autoplay="true" data-interval="5000">
@@ -660,9 +641,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Здесь будет Блок "Контакты"-->
-
     <section class="question">
       <p class="question__text">Остались вопросы? Пишите и звоните нам</p>
       <div>
@@ -670,8 +648,6 @@
           <p class="qustion__number">+7 977 277-07-17</p>
       </div>
     </section>
-
-    <!--Блок "Форма пожертвования"-->
     <section class="help-friends help-friends_margin_bottom">
       <p class="help-friends__description">Поддержите «друзей» или станьте <span
           class="help-friends__description_accent">нашим партнером</span>
@@ -706,13 +682,10 @@
           </fieldset>
           <button type="submit" class="payform__button">Поддержать фонд</button>
         </form>
-
       </div>
     </section>
-
   </main>
-
-  <footer class="footer">
+  <footer class="footer footer_main">
     <div class="footer__box-nav">
       <a class="logo logo_footer" href="./index.html">
         <div class="logo__pic logo__pic_footer"></div>
@@ -974,7 +947,5 @@
       </ul>
     </div>
   </div>
-
 </body>
-
 </html>
