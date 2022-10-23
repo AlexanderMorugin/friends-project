@@ -1,0 +1,15 @@
+.help-volunteer__image {
+    max-width: 415px;
+}
+
+@media screen and (max-width: 1027px){
+    .help-volunteer__image {
+        max-width: 380px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .help-volunteer__image {
+        max-width: 327px;
+    }
+}

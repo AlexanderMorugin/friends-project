@@ -299,3 +299,26 @@
 @import url(../blocks/question/__text/question__text.css);
 @import url(../blocks/question/__mail/question__mail.css);
 @import url(../blocks/question/__number/qustion__number.css);
+
+/* “Как еще вы можете помочь” */
+@import url(../blocks/help/help.css);
+@import url(../blocks/help/__content/help__content.css);
+@import url(../blocks/help/__title/help__title.css);
+@import url(../blocks/help/__title/_accent/help__title_accent.css);
+
+@import url(../blocks/help-volunteer/help-volunteer.css);
+@import url(../blocks/help-volunteer/__item/help-volunteer__item.css);
+@import url(../blocks/help-volunteer/_side/help-volunteer_side_right.css);
+@import url(../blocks/help-volunteer/_direction/help-volunteer_direction_reverse.css);
+@import url(../blocks/help-volunteer/__image/help-volunteer__image.css);
+@import url(../blocks/help-volunteer/__button/help-volunteer__button.css);
+@import url(../blocks/help-volunteer/__title/help-volunteer__title.css);
+@import url(../blocks/help-volunteer/__text/help-volunteer__text.css);
+@import url(../blocks/help-volunteer/__mail/help-volunteer__mail.css);
+
+@import url(../blocks/vk-button/vk-button.css);
+@import url(../blocks/telegram-button/telegram-button.css);
+
+@import url(../blocks/share/share.css);
+@import url(../blocks/share/__title/share__title.css);
+@import url(../blocks/share/__item/share__item.css);
