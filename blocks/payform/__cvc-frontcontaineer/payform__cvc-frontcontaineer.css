@@ -1,0 +1,12 @@
+.payform__cvc-frontcontaineer {
+  flex-direction: column;
+  display: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .payform__cvc-frontcontaineer {
+    display: flex;
+  }
+}
+

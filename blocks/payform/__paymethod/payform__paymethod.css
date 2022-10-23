@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+  .payform__paymethod {
+    display: flex;
+    flex-direction: column;
+  }
+}

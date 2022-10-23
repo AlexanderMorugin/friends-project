@@ -1,0 +1,13 @@
+.help-friends_second-page {
+  max-width: 1280px;
+  padding: 56px 213px 0;
+  height: 490px;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .help-friends_second-page {
+    padding: 8px;
+  }
+}

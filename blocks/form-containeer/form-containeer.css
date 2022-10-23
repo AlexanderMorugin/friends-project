@@ -9,10 +9,9 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .form-containeer {
     min-height: 500px;
     padding: 40px 24px;
   }
-
 }

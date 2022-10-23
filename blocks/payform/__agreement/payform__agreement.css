@@ -1,0 +1,8 @@
+.payform__agreement {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 14px;
+  margin-bottom: 17px;
+  padding: 0;
+}

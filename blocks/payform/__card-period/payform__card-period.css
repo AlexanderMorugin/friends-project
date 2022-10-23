@@ -1,0 +1,13 @@
+.payform__card-period {
+  margin: 0 27px 0 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  width: min-content;
+}
+
+@media screen and (max-width: 1024px) {
+  .payform__card-period {
+    font-size: 12px;
+  }
+}

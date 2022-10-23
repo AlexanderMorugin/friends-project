@@ -1,0 +1,14 @@
+.payform__cvc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .payform__cvc {
+    font-size: 12px;
+    line-height: 23px;
+  }
+}
+
+
