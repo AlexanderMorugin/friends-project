@@ -9,6 +9,7 @@
 .payform__input:checked+.payform__period-item {
   background-color: #82607D;
   color: #F8F8F8;
+  z-index: 1;
 }
 
 .payform__input:hover+.payform__period-item {
