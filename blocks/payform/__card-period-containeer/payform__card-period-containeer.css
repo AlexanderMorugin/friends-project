@@ -1,4 +1,12 @@
 .payform__card-period-containeer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .payform__card-period-containeer{
+    margin-top: 16px;
+  }
 }

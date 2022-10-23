@@ -277,8 +277,8 @@
 @import url('../blocks/payform/__holder/payform__holder.css');
 @import url('../blocks/payform/__total-sum/payform__total-sum.css');
 @import url('../blocks/payform/__total-text/payform__total-text.css');
-@import url('');
-@import url('');
+@import url('../blocks/payform/__paymethod/payform__paymethod.css');
+@import url('../blocks/payform/__cvc-frontcontaineer/payform__cvc-frontcontaineer.css');
 @import url('');
 @import url('');
 @import url('');

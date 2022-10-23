@@ -1,3 +1,9 @@
 .help-friends__containeer {
   height: 1488px;
 }
+
+@media screen and (max-width: 1024px) {
+  .help-friends__containeer {
+    height: 1903px;
+  }
+}

@@ -19,3 +19,9 @@
   z-index: -1;
   background: #D0CFCC;
 }
+
+@media screen and (max-width: 1024px) {
+  .payform__card_side_back {
+    display: none;
+  }
+}

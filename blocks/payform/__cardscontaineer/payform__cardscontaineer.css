@@ -4,3 +4,12 @@
   position: relative;
   margin-bottom: 32px;
 }
+
+@media screen and (max-width: 1024px) {
+  .payform__cardscontaineer {
+    width: 311px;
+    height: 338px;
+    margin-bottom: 24px;
+    align-self: center;
+  }
+}

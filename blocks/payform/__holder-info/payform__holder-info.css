@@ -7,3 +7,10 @@
   border: none;
   margin-bottom: 32px;
 }
+
+@media screen and (max-width: 1024px) {
+  .payform__holder-info {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -10,11 +10,10 @@
   position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .help-friends {
     flex-direction: column;
     padding: 8px;
     align-items: center;
   }
-
 }

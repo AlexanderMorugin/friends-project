@@ -5,3 +5,12 @@
   line-height: 58px;
   margin: 0 0 55px;
 }
+
+@media screen and (max-width: 768px) {
+  .help-friends__description_second-page {
+    text-align: start;
+    font-size: 25px;
+    line-height: 38px;
+    margin-bottom: 40px;
+  }
+}

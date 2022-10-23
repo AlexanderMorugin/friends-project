@@ -1,3 +1,9 @@
 .payform__cardinfo_size_s {
   width: 96px;
 }
+
+@media screen and (max-width: 1024px) {
+  .payform__cardinfo_size_s {
+    width: 112px;
+  }
+}

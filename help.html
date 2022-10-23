@@ -110,7 +110,7 @@
               <input type="number" id="entersum" placeholder="Другая сумма" class="payform__othersum payform__label">
             </fieldset>
             <h3 class="payform__field-title">Способ оплаты</h3>
-            <fieldset class="payform__amount">
+            <fieldset class="payform__amount payform__paymethod">
               <label for="visa" class="payform__label payform__label_flex">
                 <input type="radio" name="paysum" id="visa" class="payform__input">
                 <span class="payform__amount-item"><img src="./images/visa-mir.svg" alt=""></span>
@@ -134,6 +134,10 @@
                     <input type="number" placeholder="ММ/ГГ"
                       class="payform__cardinfo payform__cardinfo_size_s payform__label">
                   </label>
+                  <div class="payform__cvc-frontcontaineer">
+                  <label class="payform__cvc">CVV / CVC</label>
+                  <input type="password" class="payform__cardinfo payform__cardinfo_size_xs payform__label ">
+                </div>
                   <div>
                     <p class="payform__total-text">Итого к оплате</p>
                     <p class="payform__total-sum">1000 ₽</p>
