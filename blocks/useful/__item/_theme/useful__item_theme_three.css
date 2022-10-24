@@ -1,0 +1,21 @@
+.useful__item_theme_three {
+  background-image: url(../../../../images/icon-useful-three.svg);
+  background-repeat: no-repeat;
+  background-size: 33%;
+  background-position: right 8% bottom 4%;
+  transition: background-size 0.3s ease-in-out;
+}
+
+.useful__item_theme_three:hover {
+  background-size: 36%;
+}
+
+@media screen and (max-width: 768px) {
+  .useful__item_theme_three {
+    background-size: 120px 100%;
+    background-position: right 20px bottom -36px;
+  }
+  .useful__item_theme_three:hover {
+    background-size: 120px 100%;
+  }
+}
