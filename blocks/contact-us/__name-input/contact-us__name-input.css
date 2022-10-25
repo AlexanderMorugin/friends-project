@@ -1,5 +1,5 @@
 .contact-us__name-input{
-    max-width: 328px;
+    max-width: 296px;
     height: 56px;
     width: 100%;
     margin: 0;
@@ -7,4 +7,10 @@
     background-color: #F8F8F8;
     border-radius: 56px;
     padding: 0 0 0 32px;
+}
+
+@media screen and (max-width: 768px){
+    .contact-us__name-input{
+        max-width: 100%;
+    }
 }
