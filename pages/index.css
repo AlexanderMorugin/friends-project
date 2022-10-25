@@ -284,6 +284,9 @@
 @import url('../blocks/payform/__total-text/payform__total-text.css');
 @import url('../blocks/payform/__paymethod/payform__paymethod.css');
 @import url('../blocks/payform/__cvc-frontcontaineer/payform__cvc-frontcontaineer.css');
+@import url('../blocks/payform/__amount-item/_method/payform__amount-item_method_appay.css');
+@import url('../blocks/payform/__amount-item/_method/payform__amount-item_method_gpay.css');
+@import url('../blocks/payform/__amount-item/_method/payform__amount-item_method_visa.css');
 
 @import url(../blocks/useful/useful.css);
 @import url(../blocks/useful/__container/useful__container.css);
