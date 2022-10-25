@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 1024px) {
   .payform__card {
+    padding: 16px 16px 24px;
     width: auto;
     height: auto;
     gap: 8px;
