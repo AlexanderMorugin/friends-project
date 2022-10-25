@@ -1,0 +1,18 @@
+.contact-us__input-checkbox{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.contact-us__input-checkbox:checked+.contact-us__checkbox {
+    background-image: url('../../../images/checkbox-checked.svg');
+    background-size: cover;
+    border: #54A8B6;
+}
+  
+.contact-us__input-checkbox:hover+.contact-us__checkbox {
+    border: 1px solid #54A8B6;
+    cursor: pointer;
+}
