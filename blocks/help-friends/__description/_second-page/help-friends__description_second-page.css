@@ -9,8 +9,8 @@
 @media screen and (max-width: 768px) {
   .help-friends__description_second-page {
     text-align: start;
-    font-size: 25px;
-    line-height: 38px;
-    margin-bottom: 40px;
+    font-size: 38px;
+    line-height: 44px;
+    margin: 32px 16px 40px;
   }
 }
