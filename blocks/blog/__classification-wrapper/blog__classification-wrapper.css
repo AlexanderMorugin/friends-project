@@ -1,7 +1,9 @@
 .blog__classification-wrapper{
     padding: 2px 8px;
     max-width: 83px;
+    max-height: 24px;
     background: #00FFFA;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
