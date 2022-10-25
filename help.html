@@ -237,7 +237,21 @@
     </section>
 
     <!-- Здесь будет Блок “Форма обратной связи” -->
-
+    <section class="contact-us">
+      <h2 class="contact-us__title"> Связаться с нами </h2>
+      <p class="contact-us__subtitle"> Если у вас есть вопросы или предложения, напишите нам. Мы ответим в течение дня </p>
+      <form name="contact-us-form" class="contact-us__form">
+        
+        <input type="text" name="name" class="contact-us__name-input" minlength="5" maxlength="50" required placeholder="Имя">
+        <input type="email" name="info" class="contact-us__email-input" minlength="5" maxlength="50" required placeholder="E-mail">
+        <textarea class="contact-us__message-input" minlength="1" maxlength="50" required placeholder="Сообщениe"></textarea>
+        <label class="contact-us__label" for="contact-us-checkbox">
+          <input type="checkbox" class="contact-us__checkbox" name="contact-us-checkbox">
+          <p class="contact-us__agreement"> Я согласен с <a href="#" class="contact-us__link"> с пользовательским соглашением </a> </p>
+        </label> 
+        <button type="submit" class="contact-us__button-submit"> Отправить </button>
+      </form>
+    </section>
 
     <section class="newsletter">
       <div class="newsletter__container">
