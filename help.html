@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,62 +11,63 @@
   <script src="./vendor/slider/slider.js" defer></script>
   <script src="./pages/index.js" defer></script>
 </head>
-
 <body class="page">
   <header class="header">
-    <div class="header__logo-box">
-      <button class="header__button-menu" type="button" aria-label="Открыть меню навигации"></button>
-      <a class="logo" href="./index.html">
-        <div class="logo__pic"></div>
-        <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>
-      </a>
+    <div class="header__container">
+      <div class="header__logo-box">
+        <button class="header__button-menu" type="button" aria-label="Открыть меню навигации"></button>
+        <a class="logo" href="./index.html">
+          <div class="logo__pic"></div>
+          <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>
+        </a>
+      </div>
+      <ul class="nav">
+        <li class="nav__box">
+          <a id="menu-fund" class="nav__link" href="#">Фонд</a>
+        </li>
+        <li class="nav__box">
+          <a id="menu-programs" class="nav__link" href="#">Программы</a>
+        </li>
+        <li class="nav__box">
+          <a id="menu-nko" class="nav__link" href="#">Для НКО</a>
+        </li>
+        <li class="nav__box">
+          <a id="menu-busines" class="nav__link" href="#">Для бизнеса</a>
+        </li>
+        <li class="nav__box">
+          <a id="menu-blog" class="nav__link" href="#">Блог</a>
+        </li>
+        <li class="nav__box">
+          <a id="menu-partners" class="nav__link" href="#">Партнёры</a>
+        </li>
+        <li class="nav__box">
+          <a id="menu-contact" class="nav__link" href="#">Контакты</a>
+        </li>
+      </ul>
+      <ul class="social">
+        <li>
+          <a href="#">
+            <img class="social__icon" src="./images/icon-vk-white.svg" alt="Перейти в соцсеть ВКонтакте">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img class="social__icon" src="./images/icon-telegram-white.svg" alt="Перейти в мессенджер Telegram">
+          </a>
+        </li>
+      </ul>
+      <ul class="header__lang">
+        <li>
+          <a class="header__lang-link header__lang-link_active" href="#">Ру</a>
+        </li>
+        <li>
+          <a class="header__lang-link" href="#">En</a>
+        </li>
+      </ul>
+      <form class="header__button-donate" action="./help.html">
+        <button class="header__button-donate" type="submit" aria-label="Помочь фонду">Помочь фонду</button>
+      </form>
     </div>
-    <ul class="nav">
-      <li class="nav__box">
-        <a id="menu-fund" class="nav__link" href="#">Фонд</a>
-      </li>
-      <li class="nav__box">
-        <a id="menu-programs" class="nav__link" href="#">Программы</a>
-      </li>
-      <li class="nav__box">
-        <a id="menu-nko" class="nav__link" href="#">Для НКО</a>
-      </li>
-      <li class="nav__box">
-        <a id="menu-busines" class="nav__link" href="#">Для бизнеса</a>
-      </li>
-      <li class="nav__box">
-        <a id="menu-blog" class="nav__link" href="#">Блог</a>
-      </li>
-      <li class="nav__box">
-        <a id="menu-partners" class="nav__link" href="#">Партнёры</a>
-      </li>
-      <li class="nav__box">
-        <a id="menu-contact" class="nav__link" href="#">Контакты</a>
-      </li>
-    </ul>
-    <ul class="social">
-      <li>
-        <a href="#">
-          <img class="social__icon" src="./images/icon-vk-white.svg" alt="Перейти в соцсеть ВКонтакте">
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img class="social__icon" src="./images/icon-telegram-white.svg" alt="Перейти в мессенджер Telegram">
-        </a>
-      </li>
-    </ul>
-    <ul class="header__lang">
-      <li>
-        <a class="header__lang-link header__lang-link_active" href="#">Ру</a>
-      </li>
-      <li>
-        <a class="header__lang-link" href="#">En</a>
-      </li>
-    </ul>
-    <form class="header__button-donate" action="./help.html">
-      <button class="header__button-donate" type="submit" aria-label="Помочь фонду">Помочь фонду</button>
-    </form>
   </header>
   <main class="content">
 
@@ -177,11 +177,9 @@
 
 
     <section class="question">
-      <p class="question__text">Остались вопросы? Пишите и звоните нам</p>
-      <div>
-        <p class="question__mail">friends@friends-foundation.com</p>
-        <p class="qustion__number">+7 977 277-07-17</p>
-      </div>
+      <h2 class="question__text">Остались вопросы? Пишите и звоните нам</h2>
+      <p class="question__mail">friends@friends-foundation.com</p>
+      <p class="qustion__number">+7 977 277-07-17</p>
     </section>
     <section class="counter">
       <ul class="counter__items">
@@ -204,20 +202,28 @@
       </ul>
     </section>
     <section class="help">
-      <h2 class="help__title"><span class="help__title_accent">Как еще</span> вы можете помочь</h2>
+      <h2 class="help__title">Как еще <span class="help__accent">вы можете помочь</span></h2>
+
       <div class="help-volunteer help-volunteer_side_right">
         <div class="help-volunteer__item">
           <h3 class="help-volunteer__title">Стать интеллектуальным волонтером</h3>
-            <p class="help-volunteer__text">Помогая фондам своими профессиональными навыками, Вы сохраняете средства в бюджете организаций и позволяете им помочь еще большему количеству людей.</p>
-            <button type="button" class="help-volunteer__button"></button>
+          <p class="help-volunteer__text">
+            Помогая фондам своими профессиональными навыками, Вы сохраняете средства в бюджете организаций
+            и позволяете им помочь еще большему количеству людей.
+          </p>
+          <button type="button" class="help-volunteer__button"></button>
         </div>
         <img class="help-volunteer__image" src="images/Rectangle530.png" alt="изображение">
       </div>
+
       <div class="help-volunteer help-volunteer_direction_reverse">
         <img class="help-volunteer__image" src="images/Rectangle531.png" alt="изображение">
         <div class="help-volunteer__item">
           <h3 class="help-volunteer__title">Стать попечителем</h3>
-          <p class="help-volunteer__text">Инвестируя в одну из программ фонда “Друзья”, вы можете стать попечителем Московской школы профессиональной филантропии, платформы ProCharity или фонда «Друзья», а также наших благополучателей  – НКО, социальной организации/проекта или конкретного профессионала.</p>
+          <p class="help-volunteer__text">
+            Инвестируя в одну из программ фонда “Друзья”, вы можете стать попечителем Московской школы профессиональной филантропии,
+            платформы ProCharity или фонда «Друзья», а также наших благополучателей  – НКО, социальной организации/проекта или конкретного профессионала.
+          </p>
           <p class="help-volunteer__mail">e.gosteva@friends-foundation.com</p>
         </div>
       </div>
@@ -234,85 +240,89 @@
 
 
     <section class="newsletter">
-      <div class="newsletter__about">
-        <span class="newsletter__span-heading"> Подпишитесь на новостную рассылку/вебинары </span>
-        <p class="newsletter__paragraph-heading"> и получайте первыми наши новости и приглашения на семинары/вебинары
-        </p>
+      <div class="newsletter__container">
+        <div class="newsletter__about">
+          <h2 class="newsletter__span-heading">Подпишитесь на новостную рассылку программы</h2>
+          <p class="newsletter__paragraph-heading"> и получайте первыми наши новости и приглашения на семинары/вебинары
+          </p>
+        </div>
+        <form name="newsletter-form" class="newsletter__form">
+          <input type="email" name="title" class="newsletter__input" minlength="5" maxlength="50" required>
+          <button type="submit" class="newsletter__button-subscribe"> Подписаться </button>
+        </form>
       </div>
-      <form name="newsletter-form" class="newsletter__form">
-        <input type="email" name="title" class="newsletter__input" minlength="5" maxlength="50" required>
-        <button type="submit" class="newsletter__button-subscribe"> Подписаться </button>
-      </form>
     </section>
   </main>
   <footer class="footer">
-    <div class="footer__box-nav">
-      <a class="logo logo_footer" href="./index.html">
-        <div class="logo__pic logo__pic_footer"></div>
-        <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>
-      </a>
-      <ul class="nav nav_footer">
-        <li class="nav__box">
-          <a class="nav__link nav__link_footer" href="#">Фонд</a>
-        </li>
-        <li class="nav__box">
-          <a class="nav__link nav__link_footer" href="#">Программы</a>
-        </li>
-        <li class="nav__box">
-          <a class="nav__link nav__link_footer" href="#">Для НКО</a>
-        </li>
-        <li class="nav__box">
-          <a class="nav__link nav__link_footer" href="#">Для бизнеса</a>
-        </li>
-        <li class="nav__box">
-          <a class="nav__link nav__link_footer" href="#">Блог</a>
-        </li>
-        <li class="nav__box">
-          <a class="nav__link nav__link_footer" href="#">Партнёры</a>
-        </li>
-        <li class="nav__box">
-          <a class="nav__link nav__link_footer" href="#">Контакты</a>
-        </li>
-        <li class="nav__box">
-          <a class="nav__link nav__link_footer nav__donate" href="./help.html">Помочь фонду</a>
-        </li>
-      </ul>
-    </div>
-    <div class="footer__box-contact">
-      <div class="footer__pack">
-        <p class="footer__text">Написать нам:</p>
-        <p class="footer__text footer__text_value">friends@friends-foundation.com</p>
-      </div>
-      <div class="footer__pack">
-        <p class="footer__text">Позвонить нам:</p>
-        <p class="footer__text footer__text_value">+7 977 277-07-17</p>
-      </div>
-      <div class="footer__pack">
-        <p class="footer__text">Мы в соцсетях:</p>
-        <ul class="social social_footer">
-          <li>
-            <a href="#">
-              <img class="social__icon" src="./images/icon-vk-blue.svg" alt="Перейти в соцсеть ВКонтакте">
-            </a>
+    <div class="footer__container">
+      <div class="footer__box-nav">
+        <a class="logo logo_footer" href="./index.html">
+          <div class="logo__pic logo__pic_footer"></div>
+          <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>
+        </a>
+        <ul class="nav nav_footer">
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Фонд</a>
           </li>
-          <li>
-            <a href="#">
-              <img class="social__icon" src="./images/icon-telegram-blue.svg" alt="Перейти в мессенджер Telegram">
-            </a>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Программы</a>
+          </li>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Для НКО</a>
+          </li>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Для бизнеса</a>
+          </li>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Блог</a>
+          </li>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Партнёры</a>
+          </li>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Контакты</a>
+          </li>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer nav__donate" href="./help.html">Помочь фонду</a>
           </li>
         </ul>
       </div>
-    </div>
-    <div class="footer__box-rights">
-      <div class="footer__copy">
-        <p class="footer__age">18+</p>
-        <p class="footer__reserved">&copy; 2022 Фонд «Друзья» Все права защищены.</p>
+      <div class="footer__box-contact">
+        <div class="footer__pack">
+          <p class="footer__text">Написать нам:</p>
+          <p class="footer__text footer__text_value">friends@friends-foundation.com</p>
+        </div>
+        <div class="footer__pack">
+          <p class="footer__text">Позвонить нам:</p>
+          <p class="footer__text footer__text_value">+7 977 277-07-17</p>
+        </div>
+        <div class="footer__pack">
+          <p class="footer__text">Мы в соцсетях:</p>
+          <ul class="social social_footer">
+            <li>
+              <a href="#">
+                <img class="social__icon" src="./images/icon-vk-blue.svg" alt="Перейти в соцсеть ВКонтакте">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="social__icon" src="./images/icon-telegram-blue.svg" alt="Перейти в мессенджер Telegram">
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <p class="footer__agreement">
-        Исключительные права на&nbsp;фото- и&nbsp;иные материалы принадлежат авторам.
-        Любое размещение материалов на&nbsp;сторонних ресурсах необходимо согласовывать с&nbsp;правообладателями.
-      </p>
-      <img class="footer__logo-duns" src="./images/icon-duns.png" alt="Логотип Duns">
+      <div class="footer__box-rights">
+        <div class="footer__copy">
+          <p class="footer__age">18+</p>
+          <p class="footer__reserved">&copy; 2022 Фонд «Друзья» Все права защищены.</p>
+        </div>
+        <p class="footer__agreement">
+          Исключительные права на&nbsp;фото- и&nbsp;иные материалы принадлежат авторам.
+          Любое размещение материалов на&nbsp;сторонних ресурсах необходимо согласовывать с&nbsp;правообладателями.
+        </p>
+        <img class="footer__logo-duns" src="./images/icon-duns.png" alt="Логотип Duns">
+      </div>
     </div>
   </footer>
 

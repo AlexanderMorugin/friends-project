@@ -1,5 +1,6 @@
 .help-volunteer__image {
-    max-width: 415px;
+    width: 415px;
+    height: 100%;
 }
 
 @media screen and (max-width: 1027px){
@@ -8,8 +9,8 @@
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     .help-volunteer__image {
-        max-width: 327px;
+        width: 100%;
     }
 }

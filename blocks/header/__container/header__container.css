@@ -1,17 +1,20 @@
-.blog {
+.header__container {
+  /*position: fixed;*/
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  gap: 10px;
   width: 100%;
   max-width: 1280px;
+  height: 56px;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 96px 124px;
+  padding: 0;
+  z-index: 15;
 }
 
 @media screen and (max-width: 768px) {
-  .blog {
-      display: none;
+  .header__container {
+    height: 48px;
   }
 }

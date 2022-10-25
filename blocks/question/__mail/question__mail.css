@@ -1,14 +1,14 @@
 .question__mail {
     color: #71BBCA;
-    font-size: 46px;
-    line-height: 130%;
+    font-size: 40px;
     text-align: center;
-    margin: 0;
-    padding: 0 0 16px 0;
+    margin: 32px auto 0 auto;
+    padding: 0;
+    width: max-content;
 }
 
 @media screen and (max-width: 768px) {
-    .question__mail {
-        font-size: 32px;
-    }
+  .question__mail {
+    font-size: 20px;
   }
+}

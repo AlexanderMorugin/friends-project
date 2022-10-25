@@ -1,14 +1,6 @@
 .useful {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   margin: 0;
-  padding: 96px 124px 0 124px;
+  padding: 0;
   box-sizing: border-box;
-}
-
-@media screen and (max-width: 768px) {
-  .useful {
-    padding: 56px 16px 0 16px;
-  }
 }

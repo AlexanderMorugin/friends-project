@@ -1,19 +1,9 @@
 .newsletter__about{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   max-width: 503px;
-  padding: 43px 0;
-  margin-right: 100px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.2;
-  color: #000000;
-}
-
-@media screen and (max-width: 768px){
-  .newsletter__about{
-     max-width: 327px;
-     margin: 0;
-     padding: 0;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }

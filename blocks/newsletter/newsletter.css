@@ -1,14 +1,11 @@
 .newsletter{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #F8F8F8;
   width: 100%;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
+/*
 @media screen and (max-width: 837px){
   .newsletter{
       padding: 42px 24px 52px;
@@ -17,8 +14,9 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 836px){
-  .newsletter{
-      max-width: 100%;
+@media screen and (max-width: 768px) {
+  .newsletter {
+    max-width: 100%;
   }
 }
+*/

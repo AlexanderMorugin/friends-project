@@ -1,17 +1,14 @@
 .question__text {
-    font-size: 42px;
-    line-height: 50px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
     margin: 0;
-    padding: 0;
-    /*padding-bottom: 32px;*/
+    padding: 0 24px;
 }
 
 @media screen and (max-width: 768px) {
-    .question__text {
-        font-size: 32px;
-        line-height: 44px;
-        padding-bottom: 16px;
-    }
+  .question__text {
+    font-size: 30px;
+    line-height: 42px;
   }
+}

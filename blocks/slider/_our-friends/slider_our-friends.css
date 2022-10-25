@@ -1,5 +1,8 @@
 .slider_our-friends {
-  margin: 56px 0 0 0;
+  max-width: 1280px;
+  margin: 56px auto 0 auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {

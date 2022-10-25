@@ -6,6 +6,7 @@
 @import url(../blocks/content/content.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__button-menu/header__button-menu.css);
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
@@ -79,6 +80,7 @@
 @import url(../blocks/popup/__program-prof/popup__program-prof.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__box-nav/footer__box-nav.css);
 @import url(../blocks/footer/__box-contact/footer__box-contact.css);
 @import url(../blocks/footer/__pack/footer__pack.css);
@@ -102,6 +104,7 @@
 @import url(../blocks/slider/__button-programs/slider__button-programs.css);
 
 @import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/_top/slider_top.css);
 @import url(../blocks/slider/__item/_theme/slider__item_theme_one.css);
 @import url(../blocks/slider/__item/_theme/slider__item_theme_two.css);
 @import url(../blocks/slider/__item/_theme/slider__item_theme_three.css);
@@ -283,6 +286,7 @@
 @import url('../blocks/payform/__cvc-frontcontaineer/payform__cvc-frontcontaineer.css');
 
 @import url(../blocks/useful/useful.css);
+@import url(../blocks/useful/__container/useful__container.css);
 @import url(../blocks/useful/__title/useful__title.css);
 @import url(../blocks/useful/__items/useful__items.css);
 @import url(../blocks/useful/__item/useful__item.css);
@@ -309,6 +313,7 @@
 @import url(../blocks/our-values/__text/our-values__text.css);
 
 @import url(../blocks/newsletter/newsletter.css);
+@import url(../blocks/newsletter/__container/newsletter__container.css);
 @import url(../blocks/newsletter/__about/newsletter__about.css);
 @import url(../blocks/newsletter/__paragraph-heading/newsletter__paragraph-heading.css);
 @import url(../blocks/newsletter/__span-heading/newsletter__span-heading.css);
@@ -327,7 +332,7 @@
 @import url(../blocks/help/help.css);
 @import url(../blocks/help/__content/help__content.css);
 @import url(../blocks/help/__title/help__title.css);
-@import url(../blocks/help/__title/_accent/help__title_accent.css);
+@import url(../blocks/help/__accent/help__accent.css);
 
 @import url(../blocks/help-volunteer/help-volunteer.css);
 @import url(../blocks/help-volunteer/__item/help-volunteer__item.css);

@@ -1,21 +1,17 @@
 .header {
   position: fixed;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
   background-color: #54A8B6;
   width: 100%;
-  max-width: 1280px;
-  height: 56px;
+  /*height: 56px;*/
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  z-index: 15;
+  z-index: 10;
 }
-
+/*
 @media screen and (max-width: 768px) {
   .header {
     height: 48px;
   }
 }
+*/
