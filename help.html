@@ -14,56 +14,64 @@
 <body class="page">
   <header class="header">
     <div class="header__container">
-      <div class="header__logo-box">
-        <button class="header__button-menu" type="button" aria-label="Открыть меню навигации"></button>
-        <a class="logo" href="./index.html">
-          <div class="logo__pic"></div>
-          <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>
-        </a>
-      </div>
-      <ul class="nav">
-        <li class="nav__box">
-          <a id="menu-fund" class="nav__link" href="#">Фонд</a>
-        </li>
-        <li class="nav__box">
-          <a id="menu-programs" class="nav__link" href="#">Программы</a>
-        </li>
-        <li class="nav__box">
-          <a id="menu-nko" class="nav__link" href="#">Для НКО</a>
-        </li>
-        <li class="nav__box">
-          <a id="menu-busines" class="nav__link" href="#">Для бизнеса</a>
-        </li>
-        <li class="nav__box">
-          <a id="menu-blog" class="nav__link" href="#">Блог</a>
-        </li>
-        <li class="nav__box">
-          <a id="menu-partners" class="nav__link" href="#">Партнёры</a>
-        </li>
-        <li class="nav__box">
-          <a id="menu-contact" class="nav__link" href="#">Контакты</a>
-        </li>
-      </ul>
-      <ul class="social">
-        <li>
-          <a href="#">
-            <img class="social__icon" src="./images/icon-vk-white.svg" alt="Перейти в соцсеть ВКонтакте">
+      <nav>
+        <div class="header__logo-box">
+          <button class="header__button-menu" type="button" aria-label="Открыть меню навигации"></button>
+          <a class="logo" href="./index.html">
+            <div class="logo__pic"></div>
+            <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>
           </a>
-        </li>
-        <li>
-          <a href="#">
-            <img class="social__icon" src="./images/icon-telegram-white.svg" alt="Перейти в мессенджер Telegram">
-          </a>
-        </li>
-      </ul>
-      <ul class="header__lang">
-        <li>
-          <a class="header__lang-link header__lang-link_active" href="#">Ру</a>
-        </li>
-        <li>
-          <a class="header__lang-link" href="#">En</a>
-        </li>
-      </ul>
+        </div>
+      </nav>
+      <nav>
+        <ul class="nav">
+          <li class="nav__box">
+            <a id="menu-fund" class="nav__link" href="#">Фонд</a>
+          </li>
+          <li class="nav__box">
+            <a id="menu-programs" class="nav__link" href="#">Программы</a>
+          </li>
+          <li class="nav__box">
+            <a id="menu-nko" class="nav__link" href="#">Для НКО</a>
+          </li>
+          <li class="nav__box">
+            <a id="menu-busines" class="nav__link" href="#">Для бизнеса</a>
+          </li>
+          <li class="nav__box">
+            <a id="menu-blog" class="nav__link" href="#">Блог</a>
+          </li>
+          <li class="nav__box">
+            <a id="menu-partners" class="nav__link" href="#">Партнёры</a>
+          </li>
+          <li class="nav__box">
+            <a id="menu-contact" class="nav__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <nav>
+        <ul class="social">
+          <li>
+            <a href="#">
+              <img class="social__icon" src="./images/icon-vk-white.svg" alt="Перейти в соцсеть ВКонтакте">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="social__icon" src="./images/icon-telegram-white.svg" alt="Перейти в мессенджер Telegram">
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <nav>
+        <ul class="header__lang">
+          <li>
+            <a class="header__lang-link header__lang-link_active" href="#">Ру</a>
+          </li>
+          <li>
+            <a class="header__lang-link" href="#">En</a>
+          </li>
+        </ul>
+      </nav>
       <form class="header__button-donate" action="./help.html">
         <button class="header__button-donate" type="submit" aria-label="Помочь фонду">Помочь фонду</button>
       </form>
@@ -170,7 +178,6 @@
         </fieldset>
         <button type="submit" class="payform__button">Поддержать фонд</button>
       </form>
-
     </div>
   </div>
 </section>
@@ -233,25 +240,20 @@
         </div>
       </div>
     </section>
-
-    <!-- Здесь будет Блок “Форма обратной связи” -->
     <section class="contact-us">
       <h2 class="contact-us__title"> Связаться с нами </h2>
       <p class="contact-us__subtitle"> Если у вас есть вопросы или предложения, напишите нам. Мы ответим в течение дня </p>
       <form name="contact-us-form" class="contact-us__form">
-
         <input type="text" name="name" class="contact-us__name-input" minlength="5" maxlength="50" required placeholder="Имя">
         <input type="email" name="info" class="contact-us__email-input" minlength="5" maxlength="50" required placeholder="E-mail">
         <textarea class="contact-us__message-input" minlength="1" maxlength="50" required placeholder="Сообщениe"></textarea>
         <label class="contact-us__label" for="contact-us-checkbox">
           <input type="checkbox" class="contact-us__checkbox" id="contact-us-checkbox" name="contact-us-checkbox">
         </label>
-        <p class="contact-us__agreement"> Я согласен с <a href="#" class="contact-us__link"> с пользовательским соглашением </a> </p>
-
+        <p class="contact-us__agreement"> Я согласен с <a href="#" class="contact-us__link"> с пользовательским соглашением </a></p>
         <button type="submit" class="contact-us__button-submit"> Отправить </button>
       </form>
     </section>
-
     <section class="newsletter">
       <div class="newsletter__container">
         <div class="newsletter__about">
@@ -268,7 +270,7 @@
   </main>
   <footer class="footer">
     <div class="footer__container">
-      <div class="footer__box-nav">
+      <nav class="footer__box-nav">
         <a class="logo logo_footer" href="./index.html">
           <div class="logo__pic logo__pic_footer"></div>
           <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>
@@ -299,7 +301,7 @@
             <a class="nav__link nav__link_footer nav__donate" href="./help.html">Помочь фонду</a>
           </li>
         </ul>
-      </div>
+      </nav>
       <div class="footer__box-contact">
         <div class="footer__pack">
           <p class="footer__text">Написать нам:</p>

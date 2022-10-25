@@ -1,5 +1,8 @@
 .payform {
   width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 24px;
 }
 
 @media screen and (min-width: 426px) {

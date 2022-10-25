@@ -2,6 +2,7 @@
   max-width: 664px;
   min-height: 490px;
   background-color: #fff;
+  margin: 0;
   padding: 56px 57px 64px;
   display: flex;
   flex-direction: column;
