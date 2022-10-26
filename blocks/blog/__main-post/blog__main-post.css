@@ -7,4 +7,5 @@
     grid-template-columns: 680px;
     grid-template-rows: 432px;
     cursor: pointer;
+    max-height: 432px;
 }
