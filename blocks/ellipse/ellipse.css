@@ -1,0 +1,32 @@
+.ellipse {
+  width: 416px;
+  height: 163px;
+  border-radius: 136px;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .ellipse {
+    width: 271px;
+    height: 102px;
+  }
+}
+
+.ellipse:nth-of-type(1) {
+  grid-column: 1;
+}
+
+.ellipse:nth-of-type(2) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.ellipse:nth-of-type(3) {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.ellipse:nth-of-type(4) {
+  grid-column: 4/6;
+  grid-row: 6;
+}

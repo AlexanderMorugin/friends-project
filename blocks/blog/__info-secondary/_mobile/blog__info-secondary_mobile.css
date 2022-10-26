@@ -1,0 +1,12 @@
+.blog__info-secondary_mobile{
+    gap: 16px;
+    max-width: 270px;
+    padding: 24px 0 0 16px;
+}
+
+@media screen and (min-width: 321px) and (max-width: 769px){
+    .blog__info-secondary_mobile{
+        max-width: 280px;
+        padding: 27px 24px;
+    }
+}

@@ -1,0 +1,10 @@
+.popup__block-logo-caption {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 8px;
+  color: #fff;
+  letter-spacing: 0.24em;
+  margin-left: 0;
+  padding: 0;
+  opacity: 0.6;
+}

@@ -1,0 +1,9 @@
+.newsletter__about{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 503px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,8 @@
+.popup__social {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  box-sizing: border-box;
+  margin: 32px 0 0 0;
+  padding: 0;
+}

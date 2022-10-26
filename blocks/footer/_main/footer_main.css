@@ -1,0 +1,16 @@
+.footer_main {
+  padding: 65px 0 0 0;
+}
+
+@media screen and (max-width: 1134px) {
+  .footer_main {
+    padding: 60px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer_main {
+    padding: 0;
+  }
+}
+

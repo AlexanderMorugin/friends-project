@@ -1,0 +1,14 @@
+.help-friends__span-accent {
+  font-weight: 400;
+  font-family: 'Playfair Display';
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .help-friends__span-accent {
+    font-size: 38px;
+    line-height: 44px;
+  }
+}

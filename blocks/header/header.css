@@ -1,11 +1,17 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: fixed;
   background-color: #54A8B6;
   width: 100%;
-  height: 56px;
+  /*height: 56px;*/
   box-sizing: border-box;
   margin: 0;
-  padding: 0 0 0 18px;
+  padding: 0;
+  z-index: 10;
 }
+/*
+@media screen and (max-width: 768px) {
+  .header {
+    height: 48px;
+  }
+}
+*/

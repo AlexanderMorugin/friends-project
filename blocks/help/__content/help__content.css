@@ -1,0 +1,9 @@
+.help__content {
+    margin-left: 212px;
+}
+
+@media screen and (max-width: 767px){
+    .help__content {
+        margin: 0 24px;
+    }
+}

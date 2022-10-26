@@ -1,0 +1,9 @@
+.slider__subtitle {
+  line-height: 23px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  max-width: 509px;
+  margin: 0;
+  padding: 16px 0 0 0;
+}

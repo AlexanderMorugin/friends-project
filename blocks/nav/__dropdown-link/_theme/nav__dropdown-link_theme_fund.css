@@ -1,0 +1,5 @@
+.nav__dropdown-link_theme_fund {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

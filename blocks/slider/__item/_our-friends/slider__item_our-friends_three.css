@@ -1,0 +1,19 @@
+.slider__item_our-friends_three {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 5%, rgba(255, 255, 255, 0) 50%), url(../../../../images/slider-our-friends-3.png);
+  background-position: right -180px bottom 60px;
+  background-repeat: no-repeat;
+  background-size: 65%;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__item_our-friends_three {
+    background-position: right -200px center;
+    background-size: 80%;
+  }
+ }
+
+@media screen and (max-width: 768px) {
+  .slider__item_our-friends_three {
+   background: #F8F8F8;
+  }
+ }

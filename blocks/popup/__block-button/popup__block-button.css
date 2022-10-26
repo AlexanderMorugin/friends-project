@@ -1,0 +1,18 @@
+.popup__block-button {
+  width: 201px;
+  height: 56px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 56px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  margin: 8px 0 0 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.popup__block-button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}

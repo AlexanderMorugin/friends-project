@@ -1,0 +1,19 @@
+.blog__classification-wrapper_s{
+    max-width: 57px;
+    background: #FFA923;
+    position: absolute;
+    z-index: 1;
+    margin: 16px 0 0 16px;
+}
+
+@media screen and (max-width: 321px){
+    .blog__classification-wrapper_s{
+        margin: 10px 0 0 -200px;
+    }
+}
+
+@media screen and (min-width: 322px) and (max-width: 769px){
+    .blog__classification-wrapper_s{
+        margin: 10px 0 0 -240px;
+    }
+}

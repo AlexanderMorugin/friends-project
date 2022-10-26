@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Яндекс Практикум. Проект - Фонд Друзья">
+  <meta name="author" content="Команда-4">
+  <meta name="keywords" content="html, css, javascript">
+  <title>Фонд Друзья</title>
+  <link rel="stylesheet" type="text/css" href="./pages/index.css">
+  <script src="./vendor/slider/slider.js" defer></script>
+  <script src="./pages/index.js" defer></script>
+</head>
+<body class="page">
+  <header class="header">
+    <nav class="header__container">
+      <div class="header__logo-box">
+        <button class="header__button-menu" type="button" aria-label="Открыть меню навигации"></button>
+        <a class="logo" href="./index.html">
+          <div class="logo__pic"></div>
+          <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>
+        </a>
+      </div>
+      <ul class="nav">
+        <li class="nav__box">
+          <a class="nav__link" href="#">Фонд</a>
+          <div class="nav__container">
+            <ul class="nav__dropdown nav__dropdown_theme_fund">
+              <li class="nav__dropdown-box nav__dropdown-box_theme_fund">
+                <a class="nav__dropdown-link nav__dropdown-link_theme_fund" href="#">
+                  <h3 class="nav__dropdown-title nav__dropdown-title_theme_fund">О фонде «Друзья»</h3>
+                  <p class="nav__dropdown-subtitle nav__dropdown-subtitle_theme_fund">История фонда, миссия</p>
+                </a>
+              </li>
+              <li class="nav__dropdown-box nav__dropdown-box_theme_fund">
+                <a class="nav__dropdown-link nav__dropdown-link_theme_fund" href="#">
+                  <h3 class="nav__dropdown-title nav__dropdown-title_theme_fund">Структура фонда</h3>
+                  <p class="nav__dropdown-subtitle nav__dropdown-subtitle_theme_fund">Экспертный совет, Попечительский совет, Правление, Команда</p>
+                </a>
+              </li>
+              <li class="nav__dropdown-box nav__dropdown-box_theme_fund">
+                <a class="nav__dropdown-link nav__dropdown-link_theme_fund" href="#">
+                  <h3 class="nav__dropdown-title nav__dropdown-title_theme_fund">Документы</h3>
+                  <p class="nav__dropdown-subtitle nav__dropdown-subtitle_theme_fund">Оферта, Реквизиты, Устав Договор пожертвования</p>
+                </a>
+              </li>
+              <li class="nav__dropdown-box nav__dropdown-box_theme_fund">
+                <a class="nav__dropdown-link nav__dropdown-link_theme_fund" href="#">
+                  <h3 class="nav__dropdown-title nav__dropdown-title_theme_fund">Отчёты</h3>
+                  <p class="nav__dropdown-subtitle nav__dropdown-subtitle_theme_fund">Айдит, Годовой отчёт</p>
+                </a>
+              </li>
+              <li class="nav__dropdown-box nav__dropdown-box_theme_fund">
+                <a class="nav__dropdown-link nav__dropdown-link_theme_fund" href="#">
+                  <h3 class="nav__dropdown-title nav__dropdown-title_theme_fund">FAQ</h3>
+                  <p class="nav__dropdown-subtitle nav__dropdown-subtitle_theme_fund">Ответы на часто задаваемые вопросы</p>
+                </a>
+              </li>
+              <li class="nav__dropdown-box nav__dropdown-box_theme_fund">
+                <a class="nav__dropdown-link nav__dropdown-link_theme_fund" href="#">
+                  <h3 class="nav__dropdown-title nav__dropdown-title_theme_fund">СМИ о нас</h3>
+                  <p class="nav__dropdown-subtitle nav__dropdown-subtitle_theme_fund">Что пишут о нас в сети интернета</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav__box">
+          <a class="nav__link" href="#">Программы</a>
+          <div class="nav__container">
+            <ul class="nav__dropdown nav__dropdown_theme_program">
+              <li class="nav__dropdown-box nav__dropdown-box_theme_program">
+                <a class="nav__dropdown-link nav__dropdown-link_theme_program" href="#">
+                  <div class="nav__dropdown-pic nav__dropdown_theme_procharity"></div>
+                  <h3 class="nav__dropdown-title nav__dropdown-title_theme_program">ProCharity</h3>
+                  <p class="nav__dropdown-subtitle nav__dropdown-subtitle_theme_program">Скорая интеллектуальная помощь для благотворительных фондов</p>
+                </a>
+              </li>
+              <li class="nav__dropdown-box nav__dropdown-box_theme_program">
+                <a class="nav__dropdown-link nav__dropdown-link_theme_program" href="#">
+                  <div class="nav__dropdown-pic nav__dropdown_theme_filantrop"></div>
+                  <h3 class="nav__dropdown-title nav__dropdown-title_theme_program">Московская школа профессиональной филантропии</h3>
+                  <p class="nav__dropdown-subtitle nav__dropdown-subtitle_theme_program">Повышение квалификации и профессионализма сотрудников НКО</p>
+                </a>
+              </li>
+              <li class="nav__dropdown-box nav__dropdown-box_theme_program">
+                <a class="nav__dropdown-link nav__dropdown-link_theme_program" href="#">
+                  <div class="nav__dropdown-pic nav__dropdown_theme_prof"></div>
+                  <h3 class="nav__dropdown-title nav__dropdown-title_theme_program">Команда профессионалов</h3>
+                  <p class="nav__dropdown-subtitle nav__dropdown-subtitle_theme_program">Стратегическое развитие и менторская поддержка некоммерческих организаций</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav__box">
+          <a id="menu-nko" class="nav__link" href="#">Для НКО</a>
+        </li>
+        <li class="nav__box">
+          <a id="menu-busines" class="nav__link" href="#">Для бизнеса</a>
+        </li>
+        <li class="nav__box">
+          <a id="menu-blog" class="nav__link" href="#">Блог</a>
+        </li>
+        <li class="nav__box">
+          <a id="menu-partners" class="nav__link" href="#">Партнёры</a>
+        </li>
+        <li class="nav__box">
+          <a id="menu-contact" class="nav__link" href="#">Контакты</a>
+        </li>
+      </ul>
+      <ul class="social">
+        <li>
+          <a href="#">
+            <img class="social__icon" src="./images/icon-vk-white.svg" alt="Перейти в соцсеть ВКонтакте">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img class="social__icon" src="./images/icon-telegram-white.svg" alt="Перейти в мессенджер Telegram">
+          </a>
+        </li>
+      </ul>
+      <ul class="header__lang">
+        <li>
+          <a class="header__lang-link header__lang-link_active" href="#">Ру</a>
+        </li>
+        <li>
+          <a class="header__lang-link" href="#">En</a>
+        </li>
+      </ul>
+      <form class="header__button-donate" action="./help.html">
+        <button class="header__button-donate" type="submit" aria-label="Помочь фонду">Помочь фонду</button>
+      </form>
+    </nav>
+  </header>
+  <main class="content">
+<!--Блок “Форма пожертвования” -->
+<section class="help-friends__containeer">
+  <div class="help-friends help-friends_fond-page">
+    <h1 class="help-friends__description help-friends__description_fond-page">Поддерживая «Друзей» вы помогаете
+      <span class="help-friends__span-accent">развитию всей индустрии</span>
+    </h1>
+    <div class="form-containeer form-container_fond-page">
+      <form class="payform" name="payform">
+        <h3 class="payform__field-title">Выберите тип и сумму пожертвования</h3>
+        <fieldset class="payform__period">
+          <label for="one-time">
+            <input type="radio" name="pay-period" id="one-time" class="payform__input">
+            <span class="payform__period-item payform__label">Разовое</span>
+          </label>
+          <label for="monthly">
+            <input type="radio" name="pay-period" id="monthly" checked class="payform__input">
+            <span class="payform__period-item payform__label payform__period-item_position_right">Ежемесячное</span>
+          </label>
+        </fieldset>
+        <h3 class="payform__field-title">Сумма поддержки</h3>
+        <fieldset class="payform__amount">
+          <label for="5000" class="payform__label payform__label_flex">
+            <input type="radio" checked name="paysum" id="5000" class="payform__input">
+            <span class="payform__amount-item">5000</span>
+          </label>
+          <label for="10000" class="payform__label payform__label_flex">
+            <input type="radio" name="paysum" id="10000" class="payform__input">
+            <span class="payform__amount-item">10000</span>
+          </label>
+          <label for="50000" class=" payform__label payform__label_flex payform__label_media_768">
+            <input type="radio" name="paysum" id="50000" class="payform__input">
+            <span class="payform__amount-item">50000</span>
+          </label>
+          <input type="number" id="entersum" placeholder="Другая сумма" min="10" class="payform__othersum payform__label">
+        </fieldset>
+        <h3 class="payform__field-title">Способ оплаты</h3>
+        <fieldset class="payform__amount payform__paymethod">
+          <label for="visa" class="payform__label payform__label_flex">
+            <input type="radio" checked name="paymethod" id="visa" class="payform__input">
+            <span class="payform__amount-item payform__amount-item_method_visa"></span>
+          </label>
+          <label for="gpay" class="payform__label payform__label_flex">
+            <input type="radio" name="paymethod" id="gpay" class="payform__input">
+            <span class="payform__amount-item payform__amount-item_method_gpay"></span>
+          </label>
+          <label for="appay" class="payform__label payform__label_flex payform__label_media_768">
+            <input type="radio" name="paymethod" id="appay" class="payform__input">
+            <span class="payform__amount-item payform__amount-item_method_appay"></span>
+          </label>
+        </fieldset>
+        <h3 class="payform__field-title">Банковская карта</h3>
+        <div class="payform__cardscontaineer">
+          <div class="payform__card payform__card_side_front">
+            <input type="number" placeholder="Номер карты" required  class="payform__cardinfo payform__label">
+            <input type="text" placeholder="Держатель карты" required  class="payform__cardinfo payform__label">
+            <div class="payform__card-period-containeer">
+              <label class="payform__card-period">Действует до
+                <input type="number" placeholder="ММ/ГГ" required
+                  class="payform__cardinfo payform__cardinfo_size_s payform__label">
+              </label>
+              <div class="payform__cvc-frontcontaineer">
+                <label class="payform__cvc">CVV / CVC</label>
+                <input type="password" placeholder="***" required class="payform__cardinfo payform__cardinfo_size_xs payform__label ">
+              </div>
+              <div>
+                <p class="payform__total-text">Итого к оплате</p>
+                <p class="payform__total-sum">5000 ₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="payform__card payform__card_side_back">
+            <label class="payform__cvc">CVV / CVC</label>
+            <input type="password" placeholder="***" required class="payform__cardinfo payform__cardinfo_size_xs payform__label">
+            <p class="payform__cvc-info">Последние 3 цифры на белой полосе с обратной стороны карты</p>
+          </div>
+        </div>
+        <fieldset class="payform__holder-info">
+          <input type="text" placeholder="Имя" required class="payform__holder payform__label">
+          <input type="text" placeholder="Фамилия" required class="payform__holder payform__label">
+          <input type="tel" placeholder="Телефон" required class="payform__holder payform__label">
+          <input type="email" placeholder="Email" required class="payform__holder payform__label">
+        </fieldset>
+        <fieldset class="payform__agreement">
+          <label for="offer">
+            <input type="checkbox" name="agreement" id="offer" required class="payform__input">
+            <span class="payform__checkbox"></span>
+            <span class="payform__checkbox-text">Согласен с <a href="#"
+                class="payform__checkbox-link">офертой</a></span>
+          </label>
+          <label for="personaldata">
+            <input type="checkbox" name="agreement" id="personaldata" required class="payform__input">
+            <span class="payform__checkbox"></span>
+            <span class="payform__checkbox-text">Ознакомился и согласен с <a href="#"
+                class="payform__checkbox-link">политикой обработки персональных данных</a></span>
+          </label>
+        </fieldset>
+        <button type="submit" class="payform__button">Поддержать фонд</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+    <section class="question">
+      <h2 class="question__text">Остались вопросы? Пишите и звоните нам</h2>
+      <p class="question__mail">friends@friends-foundation.com</p>
+      <p class="qustion__number">+7 977 277-07-17</p>
+    </section>
+    <section class="counter">
+      <ul class="counter__items">
+        <li class="counter__item">
+          <h2 class="counter__title">2 500</h2>
+          <p class="counter__text">НКО стали участниками наших программ</p>
+        </li>
+        <li class="counter__item">
+          <h1 class="counter__title">150</h1>
+          <p class="counter__text">Профессионалов благотворительности получили дипломы</p>
+        </li>
+        <li class="counter__item">
+          <h1 class="counter__title">4 000</h1>
+          <p class="counter__text">Волонтер был привлечен через нас для помощи различным НКО</p>
+        </li>
+        <li class="counter__item">
+          <h1 class="counter__title">250</h1>
+          <p class="counter__text">Экспертов преподают в наших программах</p>
+        </li>
+      </ul>
+    </section>
+    <section class="help">
+      <h2 class="help__title">Как еще <span class="help__accent">вы можете помочь</span></h2>
+      <div class="help-volunteer help-volunteer_side_right">
+        <div class="help-volunteer__item">
+          <h3 class="help-volunteer__title">Стать интеллектуальным волонтером</h3>
+          <p class="help-volunteer__text">
+            Помогая фондам своими профессиональными навыками, Вы сохраняете средства в бюджете организаций
+            и позволяете им помочь еще большему количеству людей.
+          </p>
+          <button type="button" class="help-volunteer__button"></button>
+        </div>
+        <img class="help-volunteer__image" src="images/Rectangle530.png" alt="изображение">
+      </div>
+      <div class="help-volunteer help-volunteer_direction_reverse">
+        <img class="help-volunteer__image" src="images/Rectangle531.png" alt="изображение">
+        <div class="help-volunteer__item">
+          <h3 class="help-volunteer__title">Стать попечителем</h3>
+          <p class="help-volunteer__text">
+            Инвестируя в одну из программ фонда “Друзья”, вы можете стать попечителем Московской школы профессиональной филантропии,
+            платформы ProCharity или фонда «Друзья», а также наших благополучателей  – НКО, социальной организации/проекта или конкретного профессионала.
+          </p>
+          <p class="help-volunteer__mail">e.gosteva@friends-foundation.com</p>
+        </div>
+      </div>
+      <div class="share help__content">
+        <h3 class="share__title">Рассказать о нас друзьям</h3>
+        <div class="share__item">
+          <button type="button" class="vk-button"></button>
+          <button type="button" class="telegram-button"></button>
+        </div>
+      </div>
+    </section>
+    <section class="contact-us">
+      <h2 class="contact-us__title"> Связаться с нами </h2>
+      <p class="contact-us__subtitle"> Если у вас есть вопросы или предложения, напишите нам. Мы ответим в течение дня </p>
+      <form name="contact-us-form" class="contact-us__form">
+        <input type="text" name="name" class="contact-us__name-input" minlength="5" maxlength="50" required placeholder="Имя">
+        <input type="email" name="info" class="contact-us__email-input" minlength="5" maxlength="50" required placeholder="E-mail">
+        <textarea class="contact-us__message-input" minlength="1" maxlength="50" required placeholder="Сообщениe"></textarea>
+        <label class="contact-us__label" for="contact-us-input-checkbox">
+          <input type="checkbox" class="contact-us__input-checkbox" id="contact-us-input-checkbox" name="contact-us-input-checkbox">
+          <span class="contact-us__checkbox"></span>
+          <span class="contact-us__agreement">Я согласен <a class="contact-us__link">с пользовательским соглашением</a> </span>
+        </label>
+        <button type="submit" class="contact-us__button-submit"> Отправить </button>
+      </form>
+    </section>
+    <section class="newsletter">
+      <div class="newsletter__container">
+        <div class="newsletter__about">
+          <h2 class="newsletter__span-heading">Подпишитесь на новостную рассылку программы</h2>
+          <p class="newsletter__paragraph-heading"> и получайте первыми наши новости и приглашения на семинары/вебинары
+          </p>
+        </div>
+        <form name="newsletter-form" class="newsletter__form">
+          <input type="email" name="title" class="newsletter__input" minlength="5" maxlength="50" required>
+          <button type="submit" class="newsletter__button-subscribe"> Подписаться </button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <nav class="footer__box-nav">
+        <a class="logo logo_footer" href="./index.html">
+          <div class="logo__pic logo__pic_footer"></div>
+          <p class="logo__text">ФОНД <span class="logo__span">Друзья</span></p>
+        </a>
+        <ul class="nav nav_footer">
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Фонд</a>
+          </li>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Программы</a>
+          </li>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Для НКО</a>
+          </li>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Для бизнеса</a>
+          </li>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Блог</a>
+          </li>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Партнёры</a>
+          </li>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer" href="#">Контакты</a>
+          </li>
+          <li class="nav__box">
+            <a class="nav__link nav__link_footer nav__donate" href="./help.html">Помочь фонду</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__box-contact">
+        <div class="footer__pack">
+          <p class="footer__text">Написать нам:</p>
+          <p class="footer__text footer__text_value">friends@friends-foundation.com</p>
+        </div>
+        <div class="footer__pack">
+          <p class="footer__text">Позвонить нам:</p>
+          <p class="footer__text footer__text_value">+7 977 277-07-17</p>
+        </div>
+        <div class="footer__pack">
+          <p class="footer__text">Мы в соцсетях:</p>
+          <ul class="social social_footer">
+            <li>
+              <a href="#">
+                <img class="social__icon" src="./images/icon-vk-blue.svg" alt="Перейти в соцсеть ВКонтакте">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="social__icon" src="./images/icon-telegram-blue.svg" alt="Перейти в мессенджер Telegram">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__box-rights">
+        <div class="footer__copy">
+          <p class="footer__age">18+</p>
+          <p class="footer__reserved">&copy; 2022 Фонд «Друзья» Все права защищены.</p>
+        </div>
+        <p class="footer__agreement">
+          Исключительные права на&nbsp;фото- и&nbsp;иные материалы принадлежат авторам.
+          Любое размещение материалов на&nbsp;сторонних ресурсах необходимо согласовывать с&nbsp;правообладателями.
+        </p>
+        <img class="footer__logo-duns" src="./images/icon-duns.png" alt="Логотип Duns">
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile - Модальное окно "Меню 1 ур" -->
+  <div class="popup header_menu_mobile">
+    <div class="popup__container">
+      <ul class="popup__links">
+        <li>
+          <a class="popup__link fund" href="#">Фонд</a>
+        </li>
+        <li>
+          <a class="popup__link programs" href="#">Программы</a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Блог</a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Для бизнеса</a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Для НКО</a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Контакты</a>
+        </li>
+      </ul>
+      <div class="popup__lang-social">
+        <ul class="popup__lang">
+          <li>
+            <a class="popup__lang-link popup__lang-link_active" href="#">Ру</a>
+          </li>
+          <li>
+            <a class="popup__lang-link" href="#">En</a>
+          </li>
+        </ul>
+        <ul class="popup__social">
+          <li>
+            <a href="#">
+              <img class="popup__social-icon" src="./images/icon-vk-black.svg" alt="Перейти в соцсеть ВКонтакте">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="popup__social-icon" src="./images/icon-telegram-black.svg"
+                alt="Перейти в мессенджер Telegram">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button type="button" class="popup__button-close" aria-label="Закрыть меню"></button>
+  </div>
+
+  <!-- Mobile - Модальное окно "Фонд 2.1 ур" -->
+  <div class="popup header_fund_mobile">
+    <div class="popup__container">
+      <ul class="popup__links">
+        <li>
+          <a class="popup__link" href="#">О фонде «Друзья»
+            <p class="popup__link-description">История фонда, миссия</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Структура фонда
+            <p class="popup__link-description">Экспертный совет, Попечительский совет, Правление, Команда</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Документы
+            <p class="popup__link-description">Оферта, Реквизиты, Устав Договор пожертвования</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">Отчёты
+            <p class="popup__link-description">Айдит, Годовой отчёт</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">FAQ
+            <p class="popup__link-description">Ответы на часто задаваемые вопросы</p>
+          </a>
+        </li>
+        <li>
+          <a class="popup__link" href="#">СМИ о нас
+            <p class="popup__link-description">Что пишут о нас в сети интернета</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <button type="button" class="popup__button-close popup__button-back back_fund"
+      aria-label="Вернуться в предыдущее меню"></button>
+  </div>
+
+  <!-- Mobile - Модальное окно "Программы 2.2 ур" -->
+  <div class="popup popup_programs header_programs_mobile">
+    <div class="popup__container">
+      <ul class="popup__blocks">
+        <li class="popup__block popup__block_one">
+          <figure class="popup__block-logo">
+            <img class="popup__logo-charity" src="./images/ProCharity.svg" alt="Логотип программы">
+            <figcaption class="popup__block-logo-caption">Программа</figcaption>
+          </figure>
+          <h3 class="popup__block-title">ProCharity</h3>
+          <p class="popup__block-description">Скорая интеллектуальная помощь для благотворительных фондов</p>
+          <button type="button" class="popup__block-button" aria-label="О программе">О программе</button>
+        </li>
+        <li class="popup__block popup__block_two">
+          <figure class="popup__block-logo">
+            <img class="popup__logo-filantrop" src="./images/Filantrop.svg" alt="Логотип программы">
+            <figcaption class="popup__block-logo-caption">Программа</figcaption>
+          </figure>
+          <h3 class="popup__block-title">Московская школа профессиональной филантропии</h3>
+          <p class="popup__block-description">Повышение квалификации и профессионализма сотрудников НКО</p>
+          <button type="button" class="popup__block-button" aria-label="О программе">О программе</button>
+        </li>
+        <li class="popup__block popup__block_three">
+          <figure class="popup__block-logo">
+            <img class="popup__logo-prof" src="./images/Prof.svg" alt="Логотип программы">
+            <figcaption class="popup__block-logo-caption">Программа</figcaption>
+          </figure>
+          <h3 class="popup__block-title">Команда профессионалов</h3>
+          <p class="popup__block-description">Стратегическое развитие и менторская поддержка социальных проектов и НКО
+          </p>
+          <button type="button" class="popup__block-button" aria-label="О программе">О программе</button>
+        </li>
+      </ul>
+    </div>
+    <button type="button" class="popup__button-close popup__button-back back_programs"
+      aria-label="Вернуться в предыдущее меню"></button>
+  </div>
+
+  <!-- Desktop - Модальное окно "Меню Фонд" -->
+  <div class="popup popup_desktop desktop-menu-fund">
+    <div class="popup__container">
+      <ul class="popup__links popup__links_desktop">
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">О фонде «Друзья»
+            <p class="popup__link-description popup__link-description_desktop">История фонда, миссия</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">Структура фонда
+            <p class="popup__link-description popup__link-description_desktop">Экспертный совет, Попечительский совет,
+              Правление, Команда</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">Документы
+            <p class="popup__link-description popup__link-description_desktop">Оферта, Реквизиты, Устав Договор
+              пожертвования</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">Отчёты
+            <p class="popup__link-description popup__link-description_desktop">Айдит, Годовой отчёт</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">FAQ
+            <p class="popup__link-description popup__link-description_desktop">Ответы на часто задаваемые вопросы</p>
+          </a>
+        </li>
+        <li class="popup__link-box">
+          <a class="popup__link popup__link_desktop" href="#">СМИ о нас
+            <p class="popup__link-description popup__link-description_desktop">Что пишут о нас в сети интернета</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Desktop - Модальное окно "Меню Программы" -->
+  <div class="popup popup_desktop popup_desktop-programs desktop-menu-programs">
+    <div class="popup__container">
+      <ul class="popup__program-boxes">
+        <li class="popup__program-box">
+          <div class="popup__program-pic popup__program-procharity"></div>
+          <p class="popup__program-title">ProCharity</p>
+          <p class="popup__program-description">Скорая интеллектуальная помощь для благотворительных фондов</p>
+        </li>
+        <li class="popup__program-box">
+          <div class="popup__program-pic popup__program-filantrop"></div>
+          <p class="popup__program-title">Московская школа профессиональной филантропии</p>
+          <p class="popup__program-description">Повышение квалификации и профессионализма сотрудников НКО</p>
+        </li>
+        <li class="popup__program-box">
+          <div class="popup__program-pic popup__program-prof"></div>
+          <p class="popup__program-title">Команда профессионалов</p>
+          <p class="popup__program-description">Стратегическое развитие и менторская поддержка некоммерческих
+            организаций</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+
+</html>

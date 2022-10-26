@@ -1,0 +1,15 @@
+.ellipses {
+  grid-template-columns: repeat(5, minmax(20px, 205px));
+  grid-template-rows: 123px 40px 83px 40px 86px 40px 140px;
+  display: grid;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .ellipses {
+    grid-template-columns: repeat(4, minmax(18px, 205px));
+    grid-template-rows: 97px 8px 89px 8px 89px ;
+  }
+}
+
+

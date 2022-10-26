@@ -1,0 +1,10 @@
+.blog__date-secondary{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #775872;
+    letter-spacing: 0.24em;
+    margin: 26px 0 0 26px;
+}

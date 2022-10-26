@@ -1,0 +1,15 @@
+.useful__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 96px 124px 0 124px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .useful__container {
+    padding: 56px 16px 0 16px;
+  }
+}

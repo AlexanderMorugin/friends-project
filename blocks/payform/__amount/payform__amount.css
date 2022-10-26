@@ -1,0 +1,16 @@
+.payform__amount {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(auto-fit, 56px);
+  gap: 16px;
+  border: none;
+  padding: 0;
+  margin: 0 0 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .payform__amount {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 32px;
+  }
+}

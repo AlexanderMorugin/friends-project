@@ -1,0 +1,10 @@
+.footer__agreement {
+  line-height: 13px;
+  font-size: 10px;
+  font-weight: 400;
+  color: #999;
+  max-width: 473px;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}

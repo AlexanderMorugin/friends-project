@@ -1,0 +1,20 @@
+.nav__dropdown-link_theme_program {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 48px 1fr;
+  grid-template-areas:
+    "pic title"
+    ". subtitle";
+  max-width: 427px;
+  /*margin: 0;
+  padding: 0 0 0 40px;
+  box-sizing: border-box;*/
+}
+
+/*
+@media screen and (max-width: 1100px) {
+  .nav__dropdown-link_theme_program {
+    padding: 0 0 0 10px;
+  }
+}
+*/

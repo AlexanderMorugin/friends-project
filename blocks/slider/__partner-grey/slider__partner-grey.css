@@ -1,0 +1,13 @@
+.slider__partner-grey {
+  width: 150px;
+  filter: grayscale(1);
+  opacity: .5;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .slider__partner-grey {
+    width: 80px;
+  }
+}

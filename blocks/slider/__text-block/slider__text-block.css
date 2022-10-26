@@ -1,0 +1,23 @@
+.slider__text-block {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 165px 123px;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__text-block {
+    padding: 100px 90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider__text-block {
+    padding: 42px 24px 74px 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .slider__text-block {
+    padding: 30px 24px;
+  }
+}

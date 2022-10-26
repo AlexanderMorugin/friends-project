@@ -1,0 +1,13 @@
+.payform__total-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #8E8E8E;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .payform__total-text {
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,16 @@
+.payform {
+  width: 100%;
+}
+
+@media screen and (min-width: 426px) {
+  .payform {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .payform {
+    display: flex;
+    flex-direction: column;
+  }
+}

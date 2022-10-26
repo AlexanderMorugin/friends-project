@@ -1,0 +1,17 @@
+.contact-us__email-input{
+    max-width: 296px;
+    height: 56px;
+    width: 100%;
+    margin: 0;
+    border: none;
+    padding: 0;
+    background-color: #F8F8F8;
+    border-radius: 56px;
+    padding: 0 0 0 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-us__email-input{
+        max-width: 100%;
+    }
+}

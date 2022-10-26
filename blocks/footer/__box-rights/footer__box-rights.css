@@ -1,0 +1,18 @@
+.footer__box-rights {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 22px 0 0 0;
+}
+
+/*
+@media screen and (max-width: 768px) {
+  .footer__box-rights {
+    flex-wrap: wrap;
+  }
+}
+*/

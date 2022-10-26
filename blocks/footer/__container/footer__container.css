@@ -1,0 +1,18 @@
+.footer__container {
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 78px 124px 25px 124px;
+}
+
+@media screen and (max-width: 1134px) {
+  .footer__container {
+    padding: 40px 60px 25px 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container {
+    padding: 24px;
+  }
+}

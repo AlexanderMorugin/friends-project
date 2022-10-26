@@ -1,0 +1,12 @@
+.blog__img_mobile{
+    max-width: 288px;
+    width: 100%;
+    height: 216px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 321px) and (max-width: 769px){
+    .blog__img_mobile{
+        max-width: 328px;
+    }
+}

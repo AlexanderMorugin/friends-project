@@ -1,0 +1,28 @@
+.counter__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 124px;
+  list-style: none;
+}
+
+@media screen and (max-width: 1279px) {
+  .counter__items {
+    padding: 0 24px;
+  }
+}
+
+
+@media screen and (max-width: 970px) {
+  .counter__items {
+    justify-content: center;
+    column-gap: 60px;
+    row-gap: 24px;
+  }
+}
+

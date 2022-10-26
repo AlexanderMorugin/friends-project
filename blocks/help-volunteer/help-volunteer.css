@@ -1,0 +1,28 @@
+.help-volunteer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 124px 72px 124px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px){
+    .help-volunteer {
+        padding: 0 60px 72px 60px;
+    }
+}
+
+@media screen and (max-width: 1027px){
+    .help-volunteer {
+        padding: 0 30px 50px 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .help-volunteer {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0 24px 40px 24px;
+    }
+}

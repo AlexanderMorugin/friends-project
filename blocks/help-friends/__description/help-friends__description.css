@@ -1,0 +1,17 @@
+.help-friends__description {
+  width: min-content;
+  margin: 54px 0 0 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px;
+}
+
+@media screen and (max-width: 1024px) {
+  .help-friends__description {
+    width: auto;
+    margin: 40px 16px;
+    font-size: 25px;
+    line-height: 38px;
+  }
+}

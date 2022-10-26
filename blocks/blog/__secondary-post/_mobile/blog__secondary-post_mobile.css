@@ -1,0 +1,13 @@
+.blog__secondary-post_mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+.blog__secondary-post_mobile{
+  grid-template-columns: 288px;
+  grid-template-rows: 216px 176px;
+  margin: 24px 0;
+}
+*/

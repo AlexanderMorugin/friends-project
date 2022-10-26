@@ -1,0 +1,12 @@
+.nav__dropdown-title_theme_program {
+  grid-area: title;
+  align-self: center;
+  padding: 0 16px;
+}
+/*
+@media screen and (max-width: 1024px) {
+  .nav__dropdown-title_theme_program {
+    padding: 0 16px;
+  }
+}
+*/

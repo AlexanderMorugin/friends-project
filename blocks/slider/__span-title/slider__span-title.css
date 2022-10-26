@@ -1,0 +1,21 @@
+.slider__span-title {
+  font-size: 58px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Playfair Display';
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .slider__span-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .slider__span-title {
+    font-size: 26px;
+  }
+}

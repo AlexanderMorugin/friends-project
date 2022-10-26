@@ -1,0 +1,22 @@
+.newsletter__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 43px 124px;
+}
+
+@media screen and (max-width: 950px) {
+  .newsletter__container {
+    padding: 40px 24px 52px 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .newsletter__container {
+    flex-direction: column;
+  }
+}

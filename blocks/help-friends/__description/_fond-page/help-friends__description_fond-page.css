@@ -1,0 +1,16 @@
+.help-friends__description_fond-page {
+  width: auto;
+  text-align: center;
+  font-size: 44px;
+  line-height: 58px;
+  margin: 0 0 55px;
+}
+
+@media screen and (max-width: 768px) {
+  .help-friends__description_fond-page {
+    text-align: start;
+    font-size: 38px;
+    line-height: 44px;
+    margin: 32px 16px 40px;
+  }
+}

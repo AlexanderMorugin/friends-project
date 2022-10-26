@@ -1,0 +1,9 @@
+.slider_partners {
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .slider_partners {
+    margin-top: 16px;
+  }
+}

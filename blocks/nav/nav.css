@@ -1,7 +1,26 @@
 .nav {
   display: flex;
   gap: 32px;
+  align-items: center;
   box-sizing: border-box;
   margin: 0;
-  padding: 0;   
+  padding: 0;
+}
+
+@media screen and (max-width: 1170px) {
+  .nav {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
 }

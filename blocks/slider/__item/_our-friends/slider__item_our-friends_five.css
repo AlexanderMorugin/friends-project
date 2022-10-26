@@ -1,0 +1,19 @@
+.slider__item_our-friends_five {
+  background: url(../../../../images/slider-our-friends-5.png);
+  background-position: right -10px bottom 60px;
+  background-repeat: no-repeat;
+  background-size: 45%;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__item_our-friends_five {
+    background-position: right -10px center;
+    background-size: 50%;
+  }
+ }
+
+@media screen and (max-width: 768px) {
+  .slider__item_our-friends_five {
+   background: #F8F8F8;
+  }
+ }

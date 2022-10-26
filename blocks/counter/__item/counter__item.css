@@ -1,0 +1,22 @@
+.counter__item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 240px;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .counter__item {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .counter__item {
+    width: 260px;
+  }
+}

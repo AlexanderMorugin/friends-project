@@ -1,0 +1,22 @@
+.newsletter{
+  background-color: #F8F8F8;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*
+@media screen and (max-width: 837px){
+  .newsletter{
+      padding: 42px 24px 52px;
+      max-width: 320px;
+      flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .newsletter {
+    max-width: 100%;
+  }
+}
+*/

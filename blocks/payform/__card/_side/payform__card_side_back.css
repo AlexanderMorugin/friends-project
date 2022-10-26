@@ -1,0 +1,27 @@
+.payform__card_side_back {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 205px;
+  z-index: 1;
+}
+
+.payform__card_side_back:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 52px;
+  left: 0;
+  z-index: -1;
+  background: #D0CFCC;
+}
+
+@media screen and (max-width: 1024px) {
+  .payform__card_side_back {
+    display: none;
+  }
+}

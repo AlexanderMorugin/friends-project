@@ -1,0 +1,4 @@
+.share__item {
+    display: flex;
+    column-gap: 16px;
+}

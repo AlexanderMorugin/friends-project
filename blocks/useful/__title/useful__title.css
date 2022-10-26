@@ -1,0 +1,15 @@
+.useful__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .useful__title {
+        font-size: 32px;
+        line-height: 44px;
+        /*padding-bottom: 24px;*/
+    }
+  }

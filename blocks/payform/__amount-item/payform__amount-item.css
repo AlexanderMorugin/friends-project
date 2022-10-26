@@ -1,0 +1,26 @@
+.payform__amount-item {
+  width: 173px;
+  height: 56px;
+  text-align: center;
+  padding: 18px 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .payform__amount-item {
+    width: 100%;
+    min-width: 140px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .payform__amount-item {
+    min-width: 120px;
+  }
+}

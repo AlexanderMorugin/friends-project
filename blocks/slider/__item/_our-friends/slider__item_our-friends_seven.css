@@ -1,0 +1,21 @@
+
+ .slider__item_our-friends_seven {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 5%, rgba(255, 255, 255, 0) 50%), url(../../../../images/slider-our-friends-7.png);
+  background-position: right -260px bottom 60px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__item_our-friends_seven {
+    background-position: right -260px center;
+    background-size: 100%;
+  }
+ }
+
+@media screen and (max-width: 768px) {
+  .slider__item_our-friends_seven {
+   background: #F8F8F8;
+  }
+ }
+

@@ -1,0 +1,34 @@
+.payform__period-item {
+  width: 288px;
+  height: 32px;
+  border-radius: 56px;
+  position: absolute;
+  text-align: center;
+  padding: 6px 0;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+@media screen and (max-width: 1150px) {
+  .payform__period-item {
+    width: 180px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .payform__period-item {
+    width: 164px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .payform__period-item {
+    width: 130px;
+  }
+}

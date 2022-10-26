@@ -1,0 +1,7 @@
+.slider__item_theme_eight {
+  background: url(../../../../images/slider-image-8.jpg) rgba(0, 0, 0, 0.3);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}

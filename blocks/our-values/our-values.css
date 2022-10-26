@@ -1,0 +1,16 @@
+.our-values{
+  display: flex;
+  flex-direction: column;
+  row-gap: 56px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 96px 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .our-values{
+    padding: 56px 24px;
+  }
+}
+

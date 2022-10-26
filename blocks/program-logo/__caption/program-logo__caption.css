@@ -1,0 +1,18 @@
+.program-logo__caption {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  color: #fff;
+  letter-spacing: 0.24em;
+  margin-left: 12px;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 425px) {
+  .program-logo__caption {
+    font-size: 6px;
+    line-height: 10px;
+    margin-left: 8px;
+  }
+}

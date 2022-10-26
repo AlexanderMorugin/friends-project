@@ -1,0 +1,21 @@
+.useful__item_theme_four {
+  background-image: url(../../../../images/icon-useful-four.svg);
+  background-repeat: no-repeat;
+  background-size: 23%;
+  background-position: right 15% bottom 40%;
+  transition: background-size 0.3s ease-in-out;
+}
+
+.useful__item_theme_four:hover {
+  background-size: 26%;
+}
+
+@media screen and (max-width: 768px) {
+  .useful__item_theme_four {
+    background-size: 94px 100%;
+    background-position: right 39px bottom -26px;
+  }
+  .useful__item_theme_four:hover {
+    background-size: 109px 100%;
+  }
+}

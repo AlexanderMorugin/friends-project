@@ -1,0 +1,60 @@
+.payform__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.payform__input:checked+.payform__period-item {
+  background-color: #82607D;
+  color: #F8F8F8;
+  z-index: 1;
+}
+
+.payform__input:hover+.payform__period-item {
+  background-color: #82607D;
+  color: #F8F8F8;
+  z-index: 1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.payform__input:checked+.payform__amount-item {
+  background-color: #82607D;
+  color: #F8F8F8;
+}
+
+.payform__input:hover+.payform__amount-item {
+  background-color: #82607D;
+  color: #F8F8F8;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.payform__input:checked+.payform__checkbox {
+  background-image: url('../../../images/checkbox-checked.svg');
+  background-size: cover;
+  border: #54A8B6;
+}
+
+.payform__input:hover+.payform__checkbox {
+  border: 1px solid #54A8B6;
+  cursor: pointer;
+}
+
+.payform__input:hover+.payform__amount-item_method_gpay {
+  background-image: url('../../../images/GPay-white.svg');
+}
+
+.payform__input:checked+.payform__amount-item_method_gpay {
+  background-image: url('../../../images/GPay-white.svg');
+}
+
+.payform__input:hover+.payform__amount-item_method_appay {
+  background-image: url('../../../images/ApPay-white.svg');
+}
+
+.payform__input:checked+.payform__amount-item_method_appay {
+  background-image: url('../../../images/ApPay-white.svg');
+}

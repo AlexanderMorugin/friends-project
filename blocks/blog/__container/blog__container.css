@@ -1,0 +1,17 @@
+.blog__container{
+    /*display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(328px, 680px));
+    grid-template-rows: repeat(auto-fit, minmax(432px, 1fr));
+    grid-template-areas: 
+    "main main secondary"
+    "secondary secondary secondary";
+    */
+    /*justify-items: center;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 56px 0;
+}

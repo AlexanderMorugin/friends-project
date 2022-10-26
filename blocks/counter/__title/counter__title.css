@@ -1,0 +1,20 @@
+.counter__title {
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .counter__title {
+    font-size: 62px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .counter__title {
+    font-size: 52px;
+  }
+}

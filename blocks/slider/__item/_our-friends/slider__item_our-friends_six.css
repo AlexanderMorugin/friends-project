@@ -1,0 +1,19 @@
+.slider__item_our-friends_six {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 5%, rgba(255, 255, 255, 0) 50%), url(../../../../images/slider-our-friends-6.png);
+  background-position: right -120px bottom 60px;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__item_our-friends_six {
+    background-position: right -120px center;
+    background-size: 70%;
+  }
+ }
+
+@media screen and (max-width: 768px) {
+  .slider__item_our-friends_six {
+   background: #F8F8F8;
+  }
+ }

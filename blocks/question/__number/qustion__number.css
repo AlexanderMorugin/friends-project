@@ -1,0 +1,14 @@
+.qustion__number {
+    font-size: 40px;
+    color: #71BBCA;
+    text-align: center;
+    margin: 16px auto 0 auto;
+    padding: 0;
+    width: max-content;
+}
+
+@media screen and (max-width: 768px) {
+  .qustion__number {
+    font-size: 30px;
+  }
+}

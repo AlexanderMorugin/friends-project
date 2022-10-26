@@ -1,0 +1,25 @@
+.newsletter__button-subscribe{
+  width: 152px;
+  height: 56px;
+  background-color: #528CBE;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.newsletter__button-subscribe:hover{
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1180px) {
+  .newsletter__button-subscribe {
+      width: 100%;
+  }
+}

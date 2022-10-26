@@ -1,0 +1,7 @@
+.contact-us__form{
+    max-width: 680px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 48px 0 0 0;
+}

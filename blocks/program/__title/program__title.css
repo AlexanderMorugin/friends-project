@@ -1,0 +1,14 @@
+.program__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #fff;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 425px) {
+  .program__title {
+    font-size: 30px;
+    line-height: 29px;
+  }
+}

@@ -1,0 +1,22 @@
+.payform__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 26px;
+  margin: 0 0 38px;
+}
+
+@media screen and (max-width: 768px) {
+  .payform__title {
+    font-size: 30px;
+    line-height: 44px;
+    margin-bottom: 24px;
+    width: max-content;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .payform__title {
+    font-size: 25px;
+
+  }
+}

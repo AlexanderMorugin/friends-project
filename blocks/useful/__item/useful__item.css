@@ -1,0 +1,24 @@
+.useful__item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 208px;
+  gap: 16px;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 44px;
+}
+
+@media screen and (max-width: 890px) {
+  .useful__item {
+    padding: 32px 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .useful__item {
+    /*max-width: 343px;*/
+    width: 100%;
+  }
+}
