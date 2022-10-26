@@ -1,6 +1,9 @@
 .nav__box {
   display: inline-block;
   list-style: none;
+  position: relative;
   margin: 0;
   padding: 0;
 }
+
+.nav__box:hover .nav__container {display: flex;}

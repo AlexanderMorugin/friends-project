@@ -18,15 +18,6 @@ const headerProgramsMobile = document.querySelector('.header_programs_mobile');
 const buttonBackPrograms = document.querySelector('.back_programs');
 
 
-// Desktop - Модальное окно "Меню Фонд"
-const menuFund = document.querySelector('#menu-fund');
-const headerFundDesktop = document.querySelector('.desktop-menu-fund');
-
-// Desktop - Модальное окно "Меню Программы"
-const menuPrograms = document.querySelector('#menu-programs');
-const headerProgramsDesktop = document.querySelector('.desktop-menu-programs');
-
-
 // Функции Универсальные
 function openPopup(popup) {
   popup.classList.add('popup_opened');
@@ -67,14 +58,4 @@ linkPrograms.addEventListener('click', () => {
 
 buttonBackPrograms.addEventListener('click', () => {
   closePopup(headerProgramsMobile);
-});
-
-// Desktop - Модальное окно "Меню Фонд"
-menuFund.addEventListener('click', () => {
-  togglePopup(headerFundDesktop);
-});
-
-// Desktop - Модальное окно "Меню Программы"
-menuPrograms.addEventListener('click', () => {
-  togglePopup(headerProgramsDesktop);
 });

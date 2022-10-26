@@ -1,0 +1,10 @@
+.nav__container {
+  display: none;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 56px;
+  left: 0;
+}
