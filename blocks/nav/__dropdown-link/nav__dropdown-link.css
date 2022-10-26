@@ -1,5 +1,5 @@
-.popup__link-box {
-  width: 170px;
+.nav__dropdown-link {
+  text-decoration: none;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
