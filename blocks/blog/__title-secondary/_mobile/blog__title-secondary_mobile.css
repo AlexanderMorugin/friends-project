@@ -1,4 +1,10 @@
 .blog__title-secondary_mobile{
     font-size: 16px;
     line-height: 1.38;
+    margin: 0;
+    transition: 0.3s ease;
+}
+
+.blog__title-secondary_mobile:hover{
+    color: #85CBD9;
 }

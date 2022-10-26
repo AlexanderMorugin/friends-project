@@ -4,4 +4,11 @@
     font-size: 26px;
     line-height: 1.15;
     color: #FFFFFF; 
+    margin: 0;
+    padding: 0;
+    transition: 0.3s ease;
+}
+
+.blog__title-main:hover{
+    color: #85CBD9;
 }
