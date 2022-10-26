@@ -10,6 +10,13 @@
     font-size: 30px;
     line-height: 44px;
     margin-bottom: 24px;
+    width: max-content;
   }
+}
 
+@media screen and (max-width: 374px) {
+  .payform__title {
+    font-size: 25px;
+
+  }
 }

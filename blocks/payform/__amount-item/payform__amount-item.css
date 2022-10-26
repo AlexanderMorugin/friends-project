@@ -18,3 +18,9 @@
     min-width: 140px;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .payform__amount-item {
+    min-width: 120px;
+  }
+}

@@ -18,3 +18,9 @@
     gap: 8px;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .payform__card {
+    width: 100%;
+  }
+}

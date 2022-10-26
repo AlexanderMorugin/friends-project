@@ -24,6 +24,11 @@
 @media screen and (max-width: 768px) {
   .payform__period-item {
     width: 164px;
+  }
+}
 
+@media screen and (max-width: 374px) {
+  .payform__period-item {
+    width: 130px;
   }
 }
