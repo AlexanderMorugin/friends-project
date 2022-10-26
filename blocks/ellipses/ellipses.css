@@ -5,9 +5,11 @@
 
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
   .ellipses {
     grid-template-columns: repeat(4, minmax(18px, 205px));
     grid-template-rows: 97px 8px 89px 8px 89px ;
   }
 }
+
+

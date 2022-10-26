@@ -209,13 +209,13 @@
       <div class="description">
         <h2 class="section-title">Чем мы занимаемся?</h2>
         <p class="description__paragraph">Мы помогаем некоммерческим организациям становиться лучше, привлекать
-          профессионалов и достигать своей цели - <span class="description__paragraph_accent">помощь людям.</span></p>
+          профессионалов и достигать своей цели - <span class="description__span-accent">помощь людям.</span></p>
         <p class="description__paragraph">Через свои ключевые программы «Друзья» привлекают лучшие
           бизнес-практики в работу благотворительных организаций и создают площадки для фандрайзинга и успешного
           сотрудничества с бизнесом и государством.</p>
       </div>
       <div class="ellipses">
-        <div class="ellipse ellipse_color_turquoise ellipses__element1">
+        <div class="ellipse ellipse_color_turquoise">
           <img src="./images/ellipses-background/turquoise-m.svg" alt="Декор"
             class="ellipse__circle ellipse__circle_turq_m-r">
           <img src="./images/ellipses-background/turquoise-m.svg" alt="Декор"
@@ -230,7 +230,7 @@
             <p class="ellipse__text">Находим интеллектуальных волонтеров</p>
           </div>
         </div>
-        <div class="ellipse ellipse_color_blue ellipses__element2">
+        <div class="ellipse ellipse_color_blue">
           <img src="./images/ellipses-background/grey-xxl.svg" alt="Декор"
             class="ellipse__circle ellipse__circle_grey_xxl-l">
           <img src="./images/ellipses-background/grey-xl.svg" alt="Декор" class="ellipse__circle ellipse__circle_grey_xl-r">
@@ -243,7 +243,7 @@
             <p class="ellipse__text">Обучаем филантропии</p>
           </div>
         </div>
-        <div class="ellipse ellipse_color_red ellipses__element3">
+        <div class="ellipse ellipse_color_red">
           <img src="./images/ellipses-background/red-l.svg" alt="Декор" class="ellipse__circle ellipse__circle_red_l-l">
           <img src="./images/ellipses-background/red-s.svg" alt="Декор" class="ellipse__circle ellipse__circle_red_s-l">
           <div class="ellipse__containeer">
@@ -251,7 +251,7 @@
             <p class="ellipse__text">Помогаем развиваться некоммерческим организациям</p>
           </div>
         </div>
-        <div class="ellipse ellipse_color_yellow ellipses__element4">
+        <div class="ellipse ellipse_color_yellow">
           <img src="./images/ellipses-background/yellow-s.svg" alt="Декор"
             class="ellipse__circle ellipse__circle_yellow_s-t">
           <div class="ellipse__containeer">
@@ -277,7 +277,7 @@
         </div>
       </div>
       <div class="program program_color_blue program_reverse">
-        <div class="program__description">
+        <div class="program__description program__description_position_right">
           <figure class="program-logo"><img src="./images/Filantrop.svg" alt="Логотип программы">
             <figcaption class="program-logo__caption">Программа</figcaption>
           </figure>
@@ -671,7 +671,7 @@
       </p>
       <div class="form-containeer">
         <h3 class="payform__title">Поддержать Друзей:</h3>
-        <form class="payform">
+        <form class="payform" name="payform">
           <fieldset class="payform__period">
             <label for="one-time" class="payform__label">
               <input type="radio" name="pay-period" id="one-time" class="payform__input">
@@ -684,7 +684,7 @@
           </fieldset>
           <fieldset class="payform__amount">
             <label for="5000" class=" payform__label payform__label_flex">
-              <input type="radio" name="paysum" id="5000" class="payform__input">
+              <input type="radio" name="paysum" id="5000" checked class="payform__input">
               <span class="payform__amount-item">5000</span>
             </label>
             <label for="10000" class="payform__label payform__label_flex">
@@ -695,7 +695,7 @@
               <input type="radio" name="paysum" id="50000" class="payform__input">
               <span class="payform__amount-item">50000</span>
             </label>
-            <input type="number" id="entersum" placeholder="Другая сумма" class="payform__othersum payform__label">
+            <input type="number" id="entersum" placeholder="Другая сумма" min="10" class="payform__othersum payform__label">
           </fieldset>
           <button type="submit" class="payform__button">Поддержать фонд</button>
         </form>

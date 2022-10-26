@@ -82,12 +82,12 @@
 
 <!--Блок “Форма пожертвования” -->
 <section class="help-friends__containeer">
-  <div class="help-friends help-friends_second-page">
-    <p class="help-friends__description help-friends__description_second-page">Поддерживая «Друзей» вы помогаете
-      <span class="help-friends__description_accent">развитию всей индустрии</span>
-    </p>
-    <div class="form-containeer form-container_second-page">
-      <form class="payform">
+  <div class="help-friends help-friends_fond-page">
+    <h1 class="help-friends__description help-friends__description_fond-page">Поддерживая «Друзей» вы помогаете
+      <span class="help-friends__span-accent">развитию всей индустрии</span>
+    </h1>
+    <div class="form-containeer form-container_fond-page">
+      <form class="payform" name="payform">
         <h3 class="payform__field-title">Выберите тип и сумму пожертвования</h3>
         <fieldset class="payform__period">
           <label for="one-time">
@@ -102,7 +102,7 @@
         <h3 class="payform__field-title">Сумма поддержки</h3>
         <fieldset class="payform__amount">
           <label for="5000" class="payform__label payform__label_flex">
-            <input type="radio" name="paysum" id="5000" class="payform__input">
+            <input type="radio" checked name="paysum" id="5000" class="payform__input">
             <span class="payform__amount-item">5000</span>
           </label>
           <label for="10000" class="payform__label payform__label_flex">
@@ -113,36 +113,36 @@
             <input type="radio" name="paysum" id="50000" class="payform__input">
             <span class="payform__amount-item">50000</span>
           </label>
-          <input type="number" id="entersum" placeholder="Другая сумма" class="payform__othersum payform__label">
+          <input type="number" id="entersum" placeholder="Другая сумма" min="10" class="payform__othersum payform__label">
         </fieldset>
         <h3 class="payform__field-title">Способ оплаты</h3>
         <fieldset class="payform__amount payform__paymethod">
           <label for="visa" class="payform__label payform__label_flex">
-            <input type="radio" name="paysum" id="visa" class="payform__input">
+            <input type="radio" checked name="paymethod" id="visa" class="payform__input">
             <span class="payform__amount-item payform__amount-item_method_visa"></span>
           </label>
           <label for="gpay" class="payform__label payform__label_flex">
-            <input type="radio" name="paysum" id="gpay" class="payform__input">
+            <input type="radio" name="paymethod" id="gpay" class="payform__input">
             <span class="payform__amount-item payform__amount-item_method_gpay"></span>
           </label>
           <label for="appay" class="payform__label payform__label_flex payform__label_media_768">
-            <input type="radio" name="paysum" id="appay" class="payform__input">
+            <input type="radio" name="paymethod" id="appay" class="payform__input">
             <span class="payform__amount-item payform__amount-item_method_appay"></span>
           </label>
         </fieldset>
         <h3 class="payform__field-title">Банковская карта</h3>
         <div class="payform__cardscontaineer">
           <div class="payform__card payform__card_side_front">
-            <input type="number" placeholder="Номер карты" class="payform__cardinfo payform__label">
-            <input type="number" placeholder="Держатель карты" class="payform__cardinfo payform__label">
+            <input type="number" placeholder="Номер карты" required  class="payform__cardinfo payform__label">
+            <input type="text" placeholder="Держатель карты" required  class="payform__cardinfo payform__label">
             <div class="payform__card-period-containeer">
               <label class="payform__card-period">Действует до
-                <input type="number" placeholder="ММ/ГГ"
+                <input type="number" placeholder="ММ/ГГ" required
                   class="payform__cardinfo payform__cardinfo_size_s payform__label">
               </label>
               <div class="payform__cvc-frontcontaineer">
                 <label class="payform__cvc">CVV / CVC</label>
-                <input type="password" class="payform__cardinfo payform__cardinfo_size_xs payform__label ">
+                <input type="password" placeholder="***" required class="payform__cardinfo payform__cardinfo_size_xs payform__label ">
               </div>
               <div>
                 <p class="payform__total-text">Итого к оплате</p>
@@ -152,25 +152,25 @@
           </div>
           <div class="payform__card payform__card_side_back">
             <label class="payform__cvc">CVV / CVC</label>
-            <input type="password" class="payform__cardinfo payform__cardinfo_size_xs payform__label">
+            <input type="password" placeholder="***" required class="payform__cardinfo payform__cardinfo_size_xs payform__label">
             <p class="payform__cvc-info">Последние 3 цифры на белой полосе с обратной стороны карты</p>
           </div>
         </div>
         <fieldset class="payform__holder-info">
-          <input type="text" placeholder="Имя" class="payform__holder payform__label">
-          <input type="text" placeholder="Фамилия" class="payform__holder payform__label">
-          <input type="tel" placeholder="Телефон" class="payform__holder payform__label">
-          <input type="email" placeholder="Email" class="payform__holder payform__label">
+          <input type="text" placeholder="Имя" required class="payform__holder payform__label">
+          <input type="text" placeholder="Фамилия" required class="payform__holder payform__label">
+          <input type="tel" placeholder="Телефон" required class="payform__holder payform__label">
+          <input type="email" placeholder="Email" required class="payform__holder payform__label">
         </fieldset>
         <fieldset class="payform__agreement">
           <label for="offer">
-            <input type="checkbox" name="agreement" id="offer" class="payform__input">
+            <input type="checkbox" name="agreement" id="offer" required class="payform__input">
             <span class="payform__checkbox"></span>
             <span class="payform__checkbox-text">Согласен с <a href="#"
                 class="payform__checkbox-link">офертой</a></span>
           </label>
           <label for="personaldata">
-            <input type="checkbox" name="agreement" id="personaldata" class="payform__input">
+            <input type="checkbox" name="agreement" id="personaldata" required class="payform__input">
             <span class="payform__checkbox"></span>
             <span class="payform__checkbox-text">Ознакомился и согласен с <a href="#"
                 class="payform__checkbox-link">политикой обработки персональных данных</a></span>

@@ -1,4 +1,4 @@
-.help-friends_second-page {
+.help-friends_fond-page {
   max-width: 1280px;
   padding: 56px 213px 0;
   height: 490px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .help-friends_second-page {
+  .help-friends_fond-page {
     padding: 8px;
   }
 }

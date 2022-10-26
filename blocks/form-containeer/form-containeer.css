@@ -13,6 +13,6 @@
 @media screen and (max-width: 1024px) {
   .form-containeer {
     min-height: 500px;
-    padding: 40px 24px;
+    padding: 24px;
   }
 }
