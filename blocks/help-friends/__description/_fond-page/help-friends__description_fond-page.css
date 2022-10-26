@@ -1,4 +1,4 @@
-.help-friends__description_second-page {
+.help-friends__description_fond-page {
   width: auto;
   text-align: center;
   font-size: 44px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .help-friends__description_second-page {
+  .help-friends__description_fond-page {
     text-align: start;
     font-size: 38px;
     line-height: 44px;

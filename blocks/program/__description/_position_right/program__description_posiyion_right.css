@@ -1,0 +1,17 @@
+.program__description_position_right {
+  max-width: 550px;
+  margin: 80px 78px 0 0;
+}
+
+@media screen and (max-width: 425px) {
+  .program__description_position_right {
+    margin: 32px 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .program__description_position_right {
+    margin-right: 24px;
+    max-width: 465px;
+  }
+}

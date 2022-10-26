@@ -1,6 +1,6 @@
 .program {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   min-height: 490px;
   box-sizing: border-box;
   margin: 0;
